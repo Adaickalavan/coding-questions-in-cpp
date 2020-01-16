@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/app/binaryTree.cpp
+iostream
+-
+queue
+-
+
