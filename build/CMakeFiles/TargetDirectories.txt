@@ -1,6 +1,6 @@
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/CMakeFiles/rebuild_cache.dir
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/CMakeFiles/edit_cache.dir
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/app/CMakeFiles/rebuild_cache.dir
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/app/CMakeFiles/edit_cache.dir
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/app/CMakeFiles/memmove.dir
-/home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/app/CMakeFiles/binarytree.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/rebuild_cache.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/edit_cache.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/rebuild_cache.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/edit_cache.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/memmove.dir
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/binarytree.dir

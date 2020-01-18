@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/CMakeFiles /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/app/CMakeFiles/progress.marks
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build/CMakeFiles 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/progress.marks
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/memmove.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memmove.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memmove.dir/rule
 .PHONY : app/CMakeFiles/memmove.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ memmove: app/CMakeFiles/memmove.dir/rule
 
 # fast build rule for target.
 memmove/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/build
 .PHONY : memmove/fast
 
 # Convenience name for target.
 app/CMakeFiles/binarytree.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binarytree.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binarytree.dir/rule
 .PHONY : app/CMakeFiles/binarytree.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ binarytree: app/CMakeFiles/binarytree.dir/rule
 
 # fast build rule for target.
 binarytree/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
 .PHONY : binarytree/fast
 
 binaryTree.o: binaryTree.cpp.o
@@ -146,7 +146,7 @@ binaryTree.o: binaryTree.cpp.o
 
 # target to build an object file
 binaryTree.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.o
 .PHONY : binaryTree.cpp.o
 
 binaryTree.i: binaryTree.cpp.i
@@ -155,7 +155,7 @@ binaryTree.i: binaryTree.cpp.i
 
 # target to preprocess a source file
 binaryTree.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.i
 .PHONY : binaryTree.cpp.i
 
 binaryTree.s: binaryTree.cpp.s
@@ -164,7 +164,7 @@ binaryTree.s: binaryTree.cpp.s
 
 # target to generate assembly for a file
 binaryTree.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.s
 .PHONY : binaryTree.cpp.s
 
 memMove.o: memMove.cpp.o
@@ -173,7 +173,7 @@ memMove.o: memMove.cpp.o
 
 # target to build an object file
 memMove.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.o
 .PHONY : memMove.cpp.o
 
 memMove.i: memMove.cpp.i
@@ -182,7 +182,7 @@ memMove.i: memMove.cpp.i
 
 # target to preprocess a source file
 memMove.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.i
 .PHONY : memMove.cpp.i
 
 memMove.s: memMove.cpp.s
@@ -191,7 +191,7 @@ memMove.s: memMove.cpp.s
 
 # target to generate assembly for a file
 memMove.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.s
 .PHONY : memMove.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/Go-Incubate/cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

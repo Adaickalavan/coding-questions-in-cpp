@@ -1,6 +1,9 @@
 #include <iostream>
 #include <queue>
 
+using std::cout;
+using std::endl;
+
 template<class T>
 struct node{
   T key;
@@ -12,17 +15,36 @@ template<class T>
 class Btree{
   public:
     Btree();
+    ~Btree();
     void insert(T key);
+    node<T>* search_dfs(T key);
     void level_print();
   private:
     node<T>* root;
     void insert(T key, node<T>* leaf);
+    node<T>* search_dfs(T key, node<T>* leaf);
     void level_print(::std::queue<node<T>*> &q);
+    void destroy(node<T>* leaf);
 };
 
 template <class T>
 Btree<T>::Btree(){
   root = NULL;
+}
+
+template<class T>
+void Btree<T>::destroy(node<T>* leaf){
+  if (leaf == NULL) {
+    return;
+  }
+  destroy(leaf->left);
+  destroy(leaf->right);
+  delete leaf;
+}
+
+template <class T>
+Btree<T>::~Btree(){
+  destroy(root);
 }
 
 template<class T>
@@ -52,11 +74,36 @@ void Btree<T>::insert(T key, node<T>* leaf){
 }
 
 template<class T>
+node<T>* Btree<T>::search_dfs(T key){
+  return search_dfs(key, root);
+}
+
+template <class T> 
+node<T>* Btree<T>::search_dfs(T key, node<T>* leaf){
+  if (leaf == NULL){
+    cout << "Key not found" << endl;
+    return NULL;
+  }
+  cout << "Current key: " << leaf->key << endl;
+  if (leaf->key == key){
+    cout << "Key found: " << key << endl;
+    return leaf;
+  }
+  if (key > leaf->key){
+    search_dfs(key,leaf->right);
+  } else {
+    search_dfs(key, leaf->left);
+  }
+}
+
+template<class T>
 void Btree<T>::level_print(){
   if (root != NULL){
     ::std::queue<node<T>*> q;
     q.push(root);
 	  level_print(q);
+  } else {
+    cout << "-" << endl;
   }
 }
 
@@ -68,14 +115,13 @@ void Btree<T>::level_print(::std::queue<node<T>*> &q){
   size_t sz = q.size();
   while (sz--){ 
     node<T>* leaf = q.front();
-    ::std::cout<< leaf->key << " ";
-
-    if (leaf->left != NULL){
+    if (leaf != NULL){
+      cout<< leaf->key << " ";
       q.push(leaf->left);
-    }
-    if (leaf->right != NULL){
       q.push(leaf->right);
-    } 
+    } else {
+      cout << "- ";
+    }
     q.pop();
   }
   printf("\n");
@@ -88,11 +134,16 @@ int main(){
 	tree1->insert(10);
   tree1->insert(9);
   tree1->insert(1);
+  tree1->insert(15);
+  tree1->insert(11);
+  tree1->insert(18);
   tree1->insert(3);
   tree1->insert(8);
   tree1->insert(0);
+
   tree1->level_print();
 	
+  tree1->search_dfs(8); 
   delete tree1;
   ::std::cout << "\n";
 
@@ -103,6 +154,7 @@ int main(){
   tree2->insert('g');
   tree2->insert('e');
   tree2->insert('r');
+
   tree2->level_print();
 
 	delete tree2;
