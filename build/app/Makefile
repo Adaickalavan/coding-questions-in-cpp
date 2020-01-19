@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-app/CMakeFiles/balancedbrackets.dir/rule:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedbrackets.dir/rule
-.PHONY : app/CMakeFiles/balancedbrackets.dir/rule
+app/CMakeFiles/binarytree.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binarytree.dir/rule
+.PHONY : app/CMakeFiles/binarytree.dir/rule
 
 # Convenience name for target.
-balancedbrackets: app/CMakeFiles/balancedbrackets.dir/rule
+binarytree: app/CMakeFiles/binarytree.dir/rule
 
-.PHONY : balancedbrackets
+.PHONY : binarytree
 
 # fast build rule for target.
-balancedbrackets/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
-.PHONY : balancedbrackets/fast
+binarytree/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
+.PHONY : binarytree/fast
 
 # Convenience name for target.
 app/CMakeFiles/memmove.dir/rule:
@@ -141,19 +141,49 @@ memmove/fast:
 .PHONY : memmove/fast
 
 # Convenience name for target.
-app/CMakeFiles/binarytree.dir/rule:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binarytree.dir/rule
-.PHONY : app/CMakeFiles/binarytree.dir/rule
+app/CMakeFiles/balancedbrackets.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedbrackets.dir/rule
+.PHONY : app/CMakeFiles/balancedbrackets.dir/rule
 
 # Convenience name for target.
-binarytree: app/CMakeFiles/binarytree.dir/rule
+balancedbrackets: app/CMakeFiles/balancedbrackets.dir/rule
 
-.PHONY : binarytree
+.PHONY : balancedbrackets
 
 # fast build rule for target.
-binarytree/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
-.PHONY : binarytree/fast
+balancedbrackets/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
+.PHONY : balancedbrackets/fast
+
+# Convenience name for target.
+app/CMakeFiles/sumofbits.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumofbits.dir/rule
+.PHONY : app/CMakeFiles/sumofbits.dir/rule
+
+# Convenience name for target.
+sumofbits: app/CMakeFiles/sumofbits.dir/rule
+
+.PHONY : sumofbits
+
+# fast build rule for target.
+sumofbits/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
+.PHONY : sumofbits/fast
+
+# Convenience name for target.
+app/CMakeFiles/linkedlist.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/linkedlist.dir/rule
+.PHONY : app/CMakeFiles/linkedlist.dir/rule
+
+# Convenience name for target.
+linkedlist: app/CMakeFiles/linkedlist.dir/rule
+
+.PHONY : linkedlist
+
+# fast build rule for target.
+linkedlist/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/build
+.PHONY : linkedlist/fast
 
 balancedBrackets.o: balancedBrackets.cpp.o
 
@@ -209,6 +239,33 @@ binaryTree.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.s
 .PHONY : binaryTree.cpp.s
 
+linkedList.o: linkedList.cpp.o
+
+.PHONY : linkedList.o
+
+# target to build an object file
+linkedList.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/linkedList.cpp.o
+.PHONY : linkedList.cpp.o
+
+linkedList.i: linkedList.cpp.i
+
+.PHONY : linkedList.i
+
+# target to preprocess a source file
+linkedList.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/linkedList.cpp.i
+.PHONY : linkedList.cpp.i
+
+linkedList.s: linkedList.cpp.s
+
+.PHONY : linkedList.s
+
+# target to generate assembly for a file
+linkedList.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/linkedList.cpp.s
+.PHONY : linkedList.cpp.s
+
 memMove.o: memMove.cpp.o
 
 .PHONY : memMove.o
@@ -236,6 +293,33 @@ memMove.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.s
 .PHONY : memMove.cpp.s
 
+sumOfBits.o: sumOfBits.cpp.o
+
+.PHONY : sumOfBits.o
+
+# target to build an object file
+sumOfBits.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.o
+.PHONY : sumOfBits.cpp.o
+
+sumOfBits.i: sumOfBits.cpp.i
+
+.PHONY : sumOfBits.i
+
+# target to preprocess a source file
+sumOfBits.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.i
+.PHONY : sumOfBits.cpp.i
+
+sumOfBits.s: sumOfBits.cpp.s
+
+.PHONY : sumOfBits.s
+
+# target to generate assembly for a file
+sumOfBits.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.s
+.PHONY : sumOfBits.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,19 +327,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... balancedbrackets"
-	@echo "... memmove"
 	@echo "... binarytree"
+	@echo "... memmove"
+	@echo "... balancedbrackets"
+	@echo "... sumofbits"
+	@echo "... edit_cache"
+	@echo "... linkedlist"
 	@echo "... balancedBrackets.o"
 	@echo "... balancedBrackets.i"
 	@echo "... balancedBrackets.s"
 	@echo "... binaryTree.o"
 	@echo "... binaryTree.i"
 	@echo "... binaryTree.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
 	@echo "... memMove.o"
 	@echo "... memMove.i"
 	@echo "... memMove.s"
+	@echo "... sumOfBits.o"
+	@echo "... sumOfBits.i"
+	@echo "... sumOfBits.s"
 .PHONY : help
 
 

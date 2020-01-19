@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named balancedbrackets
+# Target rules for targets named binarytree
 
 # Build rule for target.
-balancedbrackets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 balancedbrackets
-.PHONY : balancedbrackets
+binarytree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binarytree
+.PHONY : binarytree
 
 # fast build rule for target.
-balancedbrackets/fast:
-	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
-.PHONY : balancedbrackets/fast
+binarytree/fast:
+	$(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
+.PHONY : binarytree/fast
 
 #=============================================================================
 # Target rules for targets named memmove
@@ -137,17 +137,43 @@ memmove/fast:
 .PHONY : memmove/fast
 
 #=============================================================================
-# Target rules for targets named binarytree
+# Target rules for targets named balancedbrackets
 
 # Build rule for target.
-binarytree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binarytree
-.PHONY : binarytree
+balancedbrackets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 balancedbrackets
+.PHONY : balancedbrackets
 
 # fast build rule for target.
-binarytree/fast:
-	$(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
-.PHONY : binarytree/fast
+balancedbrackets/fast:
+	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
+.PHONY : balancedbrackets/fast
+
+#=============================================================================
+# Target rules for targets named sumofbits
+
+# Build rule for target.
+sumofbits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sumofbits
+.PHONY : sumofbits
+
+# fast build rule for target.
+sumofbits/fast:
+	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
+.PHONY : sumofbits/fast
+
+#=============================================================================
+# Target rules for targets named linkedlist
+
+# Build rule for target.
+linkedlist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkedlist
+.PHONY : linkedlist
+
+# fast build rule for target.
+linkedlist/fast:
+	$(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/build
+.PHONY : linkedlist/fast
 
 # Help Target
 help:
@@ -157,9 +183,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... balancedbrackets"
-	@echo "... memmove"
 	@echo "... binarytree"
+	@echo "... memmove"
+	@echo "... balancedbrackets"
+	@echo "... sumofbits"
+	@echo "... linkedlist"
 .PHONY : help
 
 

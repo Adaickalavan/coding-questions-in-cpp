@@ -3,4 +3,9 @@
 add_executable(binarytree 
     ./binaryTree.cpp)
 add_executable(balancedbrackets 
-    ./balancedBrackets.cpp)    
+    ./balancedBrackets.cpp) 
+add_executable(sumofbits 
+    ./sumOfBits.cpp) 
+add_executable(linkedlist 
+    ./linkedList.cpp) 
+    

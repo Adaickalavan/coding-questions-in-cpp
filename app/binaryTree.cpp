@@ -129,9 +129,8 @@ void Btree<T>::level_print(::std::queue<node<T>*> &q){
 }
 
 int main(){
-
-	Btree<int> *tree1 = new Btree<int>();
-	tree1->insert(10);
+  Btree<int> *tree1 = new Btree<int>();
+  tree1->insert(10);
   tree1->insert(9);
   tree1->insert(1);
   tree1->insert(15);
@@ -142,7 +141,7 @@ int main(){
   tree1->insert(0);
 
   tree1->level_print();
-	
+
   tree1->search_dfs(8); 
   delete tree1;
   ::std::cout << "\n";
