@@ -32,6 +32,11 @@ Btree<T>::Btree(){
   root = NULL;
 }
 
+template <class T>
+Btree<T>::~Btree(){
+  destroy(root);
+}
+
 template<class T>
 void Btree<T>::destroy(node<T>* leaf){
   if (leaf == NULL) {
@@ -40,11 +45,6 @@ void Btree<T>::destroy(node<T>* leaf){
   destroy(leaf->left);
   destroy(leaf->right);
   delete leaf;
-}
-
-template <class T>
-Btree<T>::~Btree(){
-  destroy(root);
 }
 
 template<class T>
@@ -158,5 +158,4 @@ int main(){
   tree2->level_print();
 
 	delete tree2;
-
 }

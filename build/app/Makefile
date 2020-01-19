@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+app/CMakeFiles/balancedbrackets.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedbrackets.dir/rule
+.PHONY : app/CMakeFiles/balancedbrackets.dir/rule
+
+# Convenience name for target.
+balancedbrackets: app/CMakeFiles/balancedbrackets.dir/rule
+
+.PHONY : balancedbrackets
+
+# fast build rule for target.
+balancedbrackets/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
+.PHONY : balancedbrackets/fast
+
+# Convenience name for target.
 app/CMakeFiles/memmove.dir/rule:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memmove.dir/rule
 .PHONY : app/CMakeFiles/memmove.dir/rule
@@ -139,6 +154,33 @@ binarytree: app/CMakeFiles/binarytree.dir/rule
 binarytree/fast:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
 .PHONY : binarytree/fast
+
+balancedBrackets.o: balancedBrackets.cpp.o
+
+.PHONY : balancedBrackets.o
+
+# target to build an object file
+balancedBrackets.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o
+.PHONY : balancedBrackets.cpp.o
+
+balancedBrackets.i: balancedBrackets.cpp.i
+
+.PHONY : balancedBrackets.i
+
+# target to preprocess a source file
+balancedBrackets.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.i
+.PHONY : balancedBrackets.cpp.i
+
+balancedBrackets.s: balancedBrackets.cpp.s
+
+.PHONY : balancedBrackets.s
+
+# target to generate assembly for a file
+balancedBrackets.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.s
+.PHONY : balancedBrackets.cpp.s
 
 binaryTree.o: binaryTree.cpp.o
 
@@ -202,8 +244,12 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... balancedbrackets"
 	@echo "... memmove"
 	@echo "... binarytree"
+	@echo "... balancedBrackets.o"
+	@echo "... balancedBrackets.i"
+	@echo "... balancedBrackets.s"
 	@echo "... binaryTree.o"
 	@echo "... binaryTree.i"
 	@echo "... binaryTree.s"

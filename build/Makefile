@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named balancedbrackets
+
+# Build rule for target.
+balancedbrackets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 balancedbrackets
+.PHONY : balancedbrackets
+
+# fast build rule for target.
+balancedbrackets/fast:
+	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
+.PHONY : balancedbrackets/fast
+
+#=============================================================================
 # Target rules for targets named memmove
 
 # Build rule for target.
@@ -144,6 +157,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... balancedbrackets"
 	@echo "... memmove"
 	@echo "... binarytree"
 .PHONY : help

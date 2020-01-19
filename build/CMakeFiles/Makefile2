@@ -63,12 +63,14 @@ CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/co
 # Directory level rules for directory app
 
 # Convenience name for "all" pass in the directory.
+app/all: app/CMakeFiles/balancedbrackets.dir/all
 app/all: app/CMakeFiles/memmove.dir/all
 app/all: app/CMakeFiles/binarytree.dir/all
 
 .PHONY : app/all
 
 # Convenience name for "clean" pass in the directory.
+app/clean: app/CMakeFiles/balancedbrackets.dir/clean
 app/clean: app/CMakeFiles/memmove.dir/clean
 app/clean: app/CMakeFiles/binarytree.dir/clean
 
@@ -80,13 +82,50 @@ app/preinstall:
 .PHONY : app/preinstall
 
 #=============================================================================
+# Target rules for target app/CMakeFiles/balancedbrackets.dir
+
+# All Build rule for target.
+app/CMakeFiles/balancedbrackets.dir/all:
+	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/depend
+	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=1,2 "Built target balancedbrackets"
+.PHONY : app/CMakeFiles/balancedbrackets.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/balancedbrackets.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/balancedbrackets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedbrackets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+.PHONY : app/CMakeFiles/balancedbrackets.dir/rule
+
+# Convenience name for target.
+balancedbrackets: app/CMakeFiles/balancedbrackets.dir/rule
+
+.PHONY : balancedbrackets
+
+# clean rule for target.
+app/CMakeFiles/balancedbrackets.dir/clean:
+	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/clean
+.PHONY : app/CMakeFiles/balancedbrackets.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/balancedbrackets.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target app/CMakeFiles/memmove.dir
 
 # All Build rule for target.
 app/CMakeFiles/memmove.dir/all:
 	$(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/depend
 	$(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=3,4 "Built target memmove"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=5,6 "Built target memmove"
 .PHONY : app/CMakeFiles/memmove.dir/all
 
 # Include target in all.
@@ -123,7 +162,7 @@ clean: app/CMakeFiles/memmove.dir/clean
 app/CMakeFiles/binarytree.dir/all:
 	$(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/depend
 	$(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=1,2 "Built target binarytree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=3,4 "Built target binarytree"
 .PHONY : app/CMakeFiles/binarytree.dir/all
 
 # Include target in all.
