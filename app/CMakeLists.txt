@@ -8,4 +8,7 @@ add_executable(sumofbits
     ./sumOfBits.cpp) 
 add_executable(linkedlist 
     ./linkedList.cpp) 
-    
+add_executable(minheap 
+    ./minHeap.cpp)     
+add_executable(functors 
+    ./functors.cpp)      

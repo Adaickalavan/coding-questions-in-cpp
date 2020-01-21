@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -137,6 +137,19 @@ memmove/fast:
 .PHONY : memmove/fast
 
 #=============================================================================
+# Target rules for targets named functors
+
+# Build rule for target.
+functors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 functors
+.PHONY : functors
+
+# fast build rule for target.
+functors/fast:
+	$(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/build
+.PHONY : functors/fast
+
+#=============================================================================
 # Target rules for targets named balancedbrackets
 
 # Build rule for target.
@@ -148,6 +161,19 @@ balancedbrackets: cmake_check_build_system
 balancedbrackets/fast:
 	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
 .PHONY : balancedbrackets/fast
+
+#=============================================================================
+# Target rules for targets named minheap
+
+# Build rule for target.
+minheap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minheap
+.PHONY : minheap
+
+# fast build rule for target.
+minheap/fast:
+	$(MAKE) -f app/CMakeFiles/minheap.dir/build.make app/CMakeFiles/minheap.dir/build
+.PHONY : minheap/fast
 
 #=============================================================================
 # Target rules for targets named sumofbits
@@ -185,7 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... binarytree"
 	@echo "... memmove"
+	@echo "... functors"
 	@echo "... balancedbrackets"
+	@echo "... minheap"
 	@echo "... sumofbits"
 	@echo "... linkedlist"
 .PHONY : help

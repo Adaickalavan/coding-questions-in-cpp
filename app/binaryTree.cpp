@@ -129,7 +129,7 @@ void Btree<T>::level_print(::std::queue<node<T>*> &q){
 }
 
 int main(){
-  Btree<int> *tree1 = new Btree<int>();
+  Btree<int> *tree1 = new Btree<int>;
   tree1->insert(10);
   tree1->insert(9);
   tree1->insert(1);
@@ -146,7 +146,7 @@ int main(){
   delete tree1;
   ::std::cout << "\n";
 
-  Btree<char> *tree2 = new Btree<char>();
+  Btree<char> *tree2 = new Btree<char>;
 	tree2->insert('a');
   tree2->insert('c');
   tree2->insert('b');
