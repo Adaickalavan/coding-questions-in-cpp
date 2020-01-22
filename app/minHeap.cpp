@@ -29,8 +29,7 @@ class MyComparator
 }; 
 
 int main(void){
-
-    priority_queue<Point, vector<Point>, MyComparator> myQ;
+    priority_queue<Point, vector<Point>, MyComparator> myQ ;//= {Point(8,6),Point(3,10)};
     myQ.push(Point(1,4));
     myQ.push(Point(3,6));
     myQ.push(Point(2,5));
@@ -38,4 +37,8 @@ int main(void){
         cout << "(" << myQ.top().key << " " << myQ.top().value << ")" << endl;
         myQ.pop();
     }
+
+    const int& x = 666;
+    cout << x << endl;
+
 }
