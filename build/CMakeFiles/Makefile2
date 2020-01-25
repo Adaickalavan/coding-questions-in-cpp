@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/co
 # Directory level rules for directory app
 
 # Convenience name for "all" pass in the directory.
-app/all: app/CMakeFiles/longestconsecutivesequence.dir/all
+app/all: app/CMakeFiles/longestcontinuoussequence.dir/all
 app/all: app/CMakeFiles/longestsequence.dir/all
 app/all: app/CMakeFiles/binarytree.dir/all
 app/all: app/CMakeFiles/memmove.dir/all
@@ -76,7 +76,7 @@ app/all: app/CMakeFiles/linkedlist.dir/all
 .PHONY : app/all
 
 # Convenience name for "clean" pass in the directory.
-app/clean: app/CMakeFiles/longestconsecutivesequence.dir/clean
+app/clean: app/CMakeFiles/longestcontinuoussequence.dir/clean
 app/clean: app/CMakeFiles/longestsequence.dir/clean
 app/clean: app/CMakeFiles/binarytree.dir/clean
 app/clean: app/CMakeFiles/memmove.dir/clean
@@ -94,39 +94,39 @@ app/preinstall:
 .PHONY : app/preinstall
 
 #=============================================================================
-# Target rules for target app/CMakeFiles/longestconsecutivesequence.dir
+# Target rules for target app/CMakeFiles/longestcontinuoussequence.dir
 
 # All Build rule for target.
-app/CMakeFiles/longestconsecutivesequence.dir/all:
-	$(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/depend
-	$(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=9,10 "Built target longestconsecutivesequence"
-.PHONY : app/CMakeFiles/longestconsecutivesequence.dir/all
+app/CMakeFiles/longestcontinuoussequence.dir/all:
+	$(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/depend
+	$(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=9,10 "Built target longestcontinuoussequence"
+.PHONY : app/CMakeFiles/longestcontinuoussequence.dir/all
 
 # Include target in all.
-all: app/CMakeFiles/longestconsecutivesequence.dir/all
+all: app/CMakeFiles/longestcontinuoussequence.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-app/CMakeFiles/longestconsecutivesequence.dir/rule: cmake_check_build_system
+app/CMakeFiles/longestcontinuoussequence.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestconsecutivesequence.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestcontinuoussequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
-.PHONY : app/CMakeFiles/longestconsecutivesequence.dir/rule
+.PHONY : app/CMakeFiles/longestcontinuoussequence.dir/rule
 
 # Convenience name for target.
-longestconsecutivesequence: app/CMakeFiles/longestconsecutivesequence.dir/rule
+longestcontinuoussequence: app/CMakeFiles/longestcontinuoussequence.dir/rule
 
-.PHONY : longestconsecutivesequence
-
-# clean rule for target.
-app/CMakeFiles/longestconsecutivesequence.dir/clean:
-	$(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/clean
-.PHONY : app/CMakeFiles/longestconsecutivesequence.dir/clean
+.PHONY : longestcontinuoussequence
 
 # clean rule for target.
-clean: app/CMakeFiles/longestconsecutivesequence.dir/clean
+app/CMakeFiles/longestcontinuoussequence.dir/clean:
+	$(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/clean
+.PHONY : app/CMakeFiles/longestcontinuoussequence.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/longestcontinuoussequence.dir/clean
 
 .PHONY : clean
 

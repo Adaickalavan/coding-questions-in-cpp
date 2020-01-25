@@ -52,7 +52,7 @@ void Sequence::print(vector<T> vec){
 
 int main(void){
     string str1 = "abcdefghijklmnopqrst";
-    string str2 = "abcd3ekl3abfgh";
+    string str2 = "abcd3ekl3abfgs";
     Sequence seq;
     seq.find(str1, str2);
 }

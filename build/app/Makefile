@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-app/CMakeFiles/longestconsecutivesequence.dir/rule:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestconsecutivesequence.dir/rule
-.PHONY : app/CMakeFiles/longestconsecutivesequence.dir/rule
+app/CMakeFiles/longestcontinuoussequence.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestcontinuoussequence.dir/rule
+.PHONY : app/CMakeFiles/longestcontinuoussequence.dir/rule
 
 # Convenience name for target.
-longestconsecutivesequence: app/CMakeFiles/longestconsecutivesequence.dir/rule
+longestcontinuoussequence: app/CMakeFiles/longestcontinuoussequence.dir/rule
 
-.PHONY : longestconsecutivesequence
+.PHONY : longestcontinuoussequence
 
 # fast build rule for target.
-longestconsecutivesequence/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/build
-.PHONY : longestconsecutivesequence/fast
+longestcontinuoussequence/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/build
+.PHONY : longestcontinuoussequence/fast
 
 # Convenience name for target.
 app/CMakeFiles/longestsequence.dir/rule:
@@ -353,32 +353,32 @@ linkedList.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/linkedList.cpp.s
 .PHONY : linkedList.cpp.s
 
-longestConsecutiveSequence.o: longestConsecutiveSequence.cpp.o
+longestContinuousSequence.o: longestContinuousSequence.cpp.o
 
-.PHONY : longestConsecutiveSequence.o
+.PHONY : longestContinuousSequence.o
 
 # target to build an object file
-longestConsecutiveSequence.cpp.o:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/longestConsecutiveSequence.cpp.o
-.PHONY : longestConsecutiveSequence.cpp.o
+longestContinuousSequence.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/longestContinuousSequence.cpp.o
+.PHONY : longestContinuousSequence.cpp.o
 
-longestConsecutiveSequence.i: longestConsecutiveSequence.cpp.i
+longestContinuousSequence.i: longestContinuousSequence.cpp.i
 
-.PHONY : longestConsecutiveSequence.i
+.PHONY : longestContinuousSequence.i
 
 # target to preprocess a source file
-longestConsecutiveSequence.cpp.i:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/longestConsecutiveSequence.cpp.i
-.PHONY : longestConsecutiveSequence.cpp.i
+longestContinuousSequence.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/longestContinuousSequence.cpp.i
+.PHONY : longestContinuousSequence.cpp.i
 
-longestConsecutiveSequence.s: longestConsecutiveSequence.cpp.s
+longestContinuousSequence.s: longestContinuousSequence.cpp.s
 
-.PHONY : longestConsecutiveSequence.s
+.PHONY : longestContinuousSequence.s
 
 # target to generate assembly for a file
-longestConsecutiveSequence.cpp.s:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/longestConsecutiveSequence.cpp.s
-.PHONY : longestConsecutiveSequence.cpp.s
+longestContinuousSequence.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/longestContinuousSequence.cpp.s
+.PHONY : longestContinuousSequence.cpp.s
 
 longestSequence.o: longestSequence.cpp.o
 
@@ -496,7 +496,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... longestconsecutivesequence"
+	@echo "... longestcontinuoussequence"
 	@echo "... longestsequence"
 	@echo "... binarytree"
 	@echo "... memmove"
@@ -517,9 +517,9 @@ help:
 	@echo "... linkedList.o"
 	@echo "... linkedList.i"
 	@echo "... linkedList.s"
-	@echo "... longestConsecutiveSequence.o"
-	@echo "... longestConsecutiveSequence.i"
-	@echo "... longestConsecutiveSequence.s"
+	@echo "... longestContinuousSequence.o"
+	@echo "... longestContinuousSequence.i"
+	@echo "... longestContinuousSequence.s"
 	@echo "... longestSequence.o"
 	@echo "... longestSequence.i"
 	@echo "... longestSequence.s"

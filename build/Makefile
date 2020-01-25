@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named longestconsecutivesequence
+# Target rules for targets named longestcontinuoussequence
 
 # Build rule for target.
-longestconsecutivesequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestconsecutivesequence
-.PHONY : longestconsecutivesequence
+longestcontinuoussequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longestcontinuoussequence
+.PHONY : longestcontinuoussequence
 
 # fast build rule for target.
-longestconsecutivesequence/fast:
-	$(MAKE) -f app/CMakeFiles/longestconsecutivesequence.dir/build.make app/CMakeFiles/longestconsecutivesequence.dir/build
-.PHONY : longestconsecutivesequence/fast
+longestcontinuoussequence/fast:
+	$(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/build
+.PHONY : longestcontinuoussequence/fast
 
 #=============================================================================
 # Target rules for targets named longestsequence
@@ -235,7 +235,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... longestconsecutivesequence"
+	@echo "... longestcontinuoussequence"
 	@echo "... longestsequence"
 	@echo "... binarytree"
 	@echo "... memmove"
