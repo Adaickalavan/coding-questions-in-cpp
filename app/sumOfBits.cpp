@@ -23,7 +23,8 @@ int SumOfBits::count(int input){
         return 0;
     }
     int nibble = input & 0x3;
-    int sum = table.find(nibble)->second;
+    map<int,int>::iterator it = table.find(nibble);
+    int sum = it->second;
     input = input >> 2;
     return sum + count(input);
 }

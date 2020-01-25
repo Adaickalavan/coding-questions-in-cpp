@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "app/CMakeFiles/longestconsecutivesequence.dir/DependInfo.cmake"
+  "app/CMakeFiles/longestsequence.dir/DependInfo.cmake"
   "app/CMakeFiles/binarytree.dir/DependInfo.cmake"
   "app/CMakeFiles/memmove.dir/DependInfo.cmake"
   "app/CMakeFiles/functors.dir/DependInfo.cmake"

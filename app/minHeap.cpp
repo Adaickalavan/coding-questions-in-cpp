@@ -8,9 +8,9 @@ using std::priority_queue;
 
 class Point{
     public:
+        Point(int value, float key);
         int value;
         float key;
-        Point(int value, float key);
 };
 
 Point::Point(int _value, float _key){

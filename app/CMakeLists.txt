@@ -12,3 +12,7 @@ add_executable(minheap
     ./minHeap.cpp)     
 add_executable(functors 
     ./functors.cpp)      
+add_executable(longestsequence 
+    ./longestSequence.cpp)       
+add_executable(longestconsecutivesequence 
+    ./longestConsecutiveSequence.cpp)      

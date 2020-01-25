@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/longestsequence.dir/longestSequence.cpp.o  -o ../../bin/longestsequence 
