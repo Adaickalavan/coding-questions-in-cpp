@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/longestvalidbrackets.dir/longestValidBrackets.cpp.o  -o ../../bin/longestvalidbrackets 

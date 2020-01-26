@@ -16,3 +16,5 @@ add_executable(longestsequence
     ./longestSequence.cpp)       
 add_executable(longestcontinuoussequence 
     ./longestContinuousSequence.cpp)      
+add_executable(longestvalidbrackets 
+    ./longestValidBrackets.cpp)      

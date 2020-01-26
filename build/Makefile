@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named longestvalidbrackets
+
+# Build rule for target.
+longestvalidbrackets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longestvalidbrackets
+.PHONY : longestvalidbrackets
+
+# fast build rule for target.
+longestvalidbrackets/fast:
+	$(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/build
+.PHONY : longestvalidbrackets/fast
+
+#=============================================================================
 # Target rules for targets named longestcontinuoussequence
 
 # Build rule for target.
@@ -235,6 +248,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... longestvalidbrackets"
 	@echo "... longestcontinuoussequence"
 	@echo "... longestsequence"
 	@echo "... binarytree"

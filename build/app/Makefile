@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+app/CMakeFiles/longestvalidbrackets.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestvalidbrackets.dir/rule
+.PHONY : app/CMakeFiles/longestvalidbrackets.dir/rule
+
+# Convenience name for target.
+longestvalidbrackets: app/CMakeFiles/longestvalidbrackets.dir/rule
+
+.PHONY : longestvalidbrackets
+
+# fast build rule for target.
+longestvalidbrackets/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/build
+.PHONY : longestvalidbrackets/fast
+
+# Convenience name for target.
 app/CMakeFiles/longestcontinuoussequence.dir/rule:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestcontinuoussequence.dir/rule
 .PHONY : app/CMakeFiles/longestcontinuoussequence.dir/rule
@@ -407,6 +422,33 @@ longestSequence.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestsequence.dir/build.make app/CMakeFiles/longestsequence.dir/longestSequence.cpp.s
 .PHONY : longestSequence.cpp.s
 
+longestValidBrackets.o: longestValidBrackets.cpp.o
+
+.PHONY : longestValidBrackets.o
+
+# target to build an object file
+longestValidBrackets.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/longestValidBrackets.cpp.o
+.PHONY : longestValidBrackets.cpp.o
+
+longestValidBrackets.i: longestValidBrackets.cpp.i
+
+.PHONY : longestValidBrackets.i
+
+# target to preprocess a source file
+longestValidBrackets.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/longestValidBrackets.cpp.i
+.PHONY : longestValidBrackets.cpp.i
+
+longestValidBrackets.s: longestValidBrackets.cpp.s
+
+.PHONY : longestValidBrackets.s
+
+# target to generate assembly for a file
+longestValidBrackets.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/longestValidBrackets.cpp.s
+.PHONY : longestValidBrackets.cpp.s
+
 memMove.o: memMove.cpp.o
 
 .PHONY : memMove.o
@@ -495,6 +537,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... longestvalidbrackets"
 	@echo "... edit_cache"
 	@echo "... longestcontinuoussequence"
 	@echo "... longestsequence"
@@ -523,6 +566,9 @@ help:
 	@echo "... longestSequence.o"
 	@echo "... longestSequence.i"
 	@echo "... longestSequence.s"
+	@echo "... longestValidBrackets.o"
+	@echo "... longestValidBrackets.i"
+	@echo "... longestValidBrackets.s"
 	@echo "... memMove.o"
 	@echo "... memMove.i"
 	@echo "... memMove.s"
