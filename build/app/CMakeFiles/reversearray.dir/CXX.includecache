@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/memMove.cpp
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp
 iostream
--
-cstring
 -
 array
 -

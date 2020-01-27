@@ -18,3 +18,7 @@ add_executable(longestcontinuoussequence
     ./longestContinuousSequence.cpp)      
 add_executable(longestvalidbrackets 
     ./longestValidBrackets.cpp)      
+add_executable(reversearray 
+    ./reverseArray.cpp)   
+# add_executable(reversearray 
+#     ./reverseArray.cpp) 

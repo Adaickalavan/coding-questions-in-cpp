@@ -4,6 +4,7 @@
 class BinaryFunction {
 public:
   BinaryFunction() {};
+  virtual ~BinaryFunction(){};
   virtual double operator() (double left, double right) = 0;
 };
 

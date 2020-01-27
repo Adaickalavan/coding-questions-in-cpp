@@ -38,7 +38,4 @@ int main(void){
         myQ.pop();
     }
 
-    const int& x = 666;
-    cout << x << endl;
-
 }

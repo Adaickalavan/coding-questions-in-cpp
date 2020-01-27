@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "app/CMakeFiles/reversearray.dir/DependInfo.cmake"
   "app/CMakeFiles/longestvalidbrackets.dir/DependInfo.cmake"
   "app/CMakeFiles/longestcontinuoussequence.dir/DependInfo.cmake"
   "app/CMakeFiles/longestsequence.dir/DependInfo.cmake"

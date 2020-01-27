@@ -1,5 +1,10 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
+#include <array>
+
+using std::cout;
+using std::endl;
+using std::array;
 
 template<class T>
 void memmove(T* src, T* dest, size_t size) {
@@ -40,15 +45,21 @@ int main(){
     int shift = 3;
     int len = 10;
 
-    int *arr = new int[len+shift];
+    int* arr = new int[len+shift];
     int oldarr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     memcpy(arr, oldarr, sizeof(oldarr));
-    printf("%s","Before ");
+    cout <<"Before ";
     printer<int>(arr, len+shift);
     memmove<int>(arr, arr+shift, len);
-    printf("%s","After  ");
+    cout <<"After ";
     printer<int>(arr, len+shift);
-    delete(arr);
+    delete[] arr;
+
+    array<int,13> arr1 = {1,2,3,4,5,6,7,8,9,10};
+
+    for(auto ii : arr1){  
+      cout<< ii << " ";
+    }
 
     return 0;
 }

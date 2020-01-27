@@ -67,7 +67,7 @@ node* LinkedList::reverse(node* cur, node* next){
     }
     node* nextnext = next->next;
     next->next = cur;
-    reverse(next, nextnext);
+    return reverse(next, nextnext);
 }
 
 void LinkedList::sort(){

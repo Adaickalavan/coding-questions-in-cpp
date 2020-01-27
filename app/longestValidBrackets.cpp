@@ -32,7 +32,7 @@ void Substring::find(string str, Result &result){
     int endLongest = 0;
     int startLongest = 0;
 
-    for(int ii=0; ii<str.length(); ii++){
+    for(size_t ii=0; ii<str.length(); ii++){
         if (str[ii] == '('){
             st.push(ii);    
         } else { // closing bracket ')'

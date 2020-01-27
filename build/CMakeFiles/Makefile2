@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/co
 # Directory level rules for directory app
 
 # Convenience name for "all" pass in the directory.
+app/all: app/CMakeFiles/reversearray.dir/all
 app/all: app/CMakeFiles/longestvalidbrackets.dir/all
 app/all: app/CMakeFiles/longestcontinuoussequence.dir/all
 app/all: app/CMakeFiles/longestsequence.dir/all
@@ -77,6 +78,7 @@ app/all: app/CMakeFiles/linkedlist.dir/all
 .PHONY : app/all
 
 # Convenience name for "clean" pass in the directory.
+app/clean: app/CMakeFiles/reversearray.dir/clean
 app/clean: app/CMakeFiles/longestvalidbrackets.dir/clean
 app/clean: app/CMakeFiles/longestcontinuoussequence.dir/clean
 app/clean: app/CMakeFiles/longestsequence.dir/clean
@@ -94,6 +96,43 @@ app/clean: app/CMakeFiles/linkedlist.dir/clean
 app/preinstall:
 
 .PHONY : app/preinstall
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/reversearray.dir
+
+# All Build rule for target.
+app/CMakeFiles/reversearray.dir/all:
+	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/depend
+	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=19,20 "Built target reversearray"
+.PHONY : app/CMakeFiles/reversearray.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/reversearray.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/reversearray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reversearray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+.PHONY : app/CMakeFiles/reversearray.dir/rule
+
+# Convenience name for target.
+reversearray: app/CMakeFiles/reversearray.dir/rule
+
+.PHONY : reversearray
+
+# clean rule for target.
+app/CMakeFiles/reversearray.dir/clean:
+	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/clean
+.PHONY : app/CMakeFiles/reversearray.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/reversearray.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target app/CMakeFiles/longestvalidbrackets.dir
@@ -398,7 +437,7 @@ clean: app/CMakeFiles/minheap.dir/clean
 app/CMakeFiles/sumofbits.dir/all:
 	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/depend
 	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=19,20 "Built target sumofbits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=21,22 "Built target sumofbits"
 .PHONY : app/CMakeFiles/sumofbits.dir/all
 
 # Include target in all.

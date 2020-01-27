@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named reversearray
+
+# Build rule for target.
+reversearray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reversearray
+.PHONY : reversearray
+
+# fast build rule for target.
+reversearray/fast:
+	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
+.PHONY : reversearray/fast
+
+#=============================================================================
 # Target rules for targets named longestvalidbrackets
 
 # Build rule for target.
@@ -248,6 +261,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... reversearray"
 	@echo "... longestvalidbrackets"
 	@echo "... longestcontinuoussequence"
 	@echo "... longestsequence"

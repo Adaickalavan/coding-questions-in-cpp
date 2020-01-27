@@ -90,9 +90,9 @@ node<T>* Btree<T>::search_dfs(T key, node<T>* leaf){
     return leaf;
   }
   if (key > leaf->key){
-    search_dfs(key,leaf->right);
+    return search_dfs(key,leaf->right);
   } else {
-    search_dfs(key, leaf->left);
+    return search_dfs(key, leaf->left);
   }
 }
 
@@ -101,7 +101,7 @@ void Btree<T>::level_print(){
   if (root != NULL){
     ::std::queue<node<T>*> q;
     q.push(root);
-	  level_print(q);
+    level_print(q);
   } else {
     cout << "-" << endl;
   }
@@ -147,7 +147,7 @@ int main(){
   ::std::cout << "\n";
 
   Btree<char> *tree2 = new Btree<char>;
-	tree2->insert('a');
+  tree2->insert('a');
   tree2->insert('c');
   tree2->insert('b');
   tree2->insert('g');
@@ -156,5 +156,5 @@ int main(){
 
   tree2->level_print();
 
-	delete tree2;
+  delete tree2;
 }

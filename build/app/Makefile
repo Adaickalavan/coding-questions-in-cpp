@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+app/CMakeFiles/reversearray.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reversearray.dir/rule
+.PHONY : app/CMakeFiles/reversearray.dir/rule
+
+# Convenience name for target.
+reversearray: app/CMakeFiles/reversearray.dir/rule
+
+.PHONY : reversearray
+
+# fast build rule for target.
+reversearray/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
+.PHONY : reversearray/fast
+
+# Convenience name for target.
 app/CMakeFiles/longestvalidbrackets.dir/rule:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestvalidbrackets.dir/rule
 .PHONY : app/CMakeFiles/longestvalidbrackets.dir/rule
@@ -503,6 +518,33 @@ minHeap.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minheap.dir/build.make app/CMakeFiles/minheap.dir/minHeap.cpp.s
 .PHONY : minHeap.cpp.s
 
+reverseArray.o: reverseArray.cpp.o
+
+.PHONY : reverseArray.o
+
+# target to build an object file
+reverseArray.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.o
+.PHONY : reverseArray.cpp.o
+
+reverseArray.i: reverseArray.cpp.i
+
+.PHONY : reverseArray.i
+
+# target to preprocess a source file
+reverseArray.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.i
+.PHONY : reverseArray.cpp.i
+
+reverseArray.s: reverseArray.cpp.s
+
+.PHONY : reverseArray.s
+
+# target to generate assembly for a file
+reverseArray.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.s
+.PHONY : reverseArray.cpp.s
+
 sumOfBits.o: sumOfBits.cpp.o
 
 .PHONY : sumOfBits.o
@@ -537,6 +579,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... reversearray"
 	@echo "... longestvalidbrackets"
 	@echo "... edit_cache"
 	@echo "... longestcontinuoussequence"
@@ -575,6 +618,9 @@ help:
 	@echo "... minHeap.o"
 	@echo "... minHeap.i"
 	@echo "... minHeap.s"
+	@echo "... reverseArray.o"
+	@echo "... reverseArray.i"
+	@echo "... reverseArray.s"
 	@echo "... sumOfBits.o"
 	@echo "... sumOfBits.i"
 	@echo "... sumOfBits.s"
