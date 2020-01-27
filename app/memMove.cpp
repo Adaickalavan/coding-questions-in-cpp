@@ -55,11 +55,13 @@ int main(){
     printer<int>(arr, len+shift);
     delete[] arr;
 
-    array<int,13> arr1 = {1,2,3,4,5,6,7,8,9,10};
-
+    array<int,13> arr1 = {1,2,3,4,5,6,7,8,9,10,11,12,13};
+    memmove<int>(arr1.begin()+shift,arr1.begin(),len);
+    cout << "Array after: ";
     for(auto ii : arr1){  
       cout<< ii << " ";
     }
+    cout<<endl;
 
     return 0;
 }
