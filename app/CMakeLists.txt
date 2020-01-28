@@ -20,5 +20,7 @@ add_executable(longestvalidbrackets
     ./longestValidBrackets.cpp)      
 add_executable(reversearray 
     ./reverseArray.cpp)   
-# add_executable(reversearray 
-#     ./reverseArray.cpp) 
+add_executable(patternsearch
+    ./patternSearch.cpp)   
+add_executable(mergeSorted
+    ./mergeSorted.cpp)       

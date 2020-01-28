@@ -156,6 +156,21 @@ longestcontinuoussequence/fast:
 .PHONY : longestcontinuoussequence/fast
 
 # Convenience name for target.
+app/CMakeFiles/patternsearch.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/patternsearch.dir/rule
+.PHONY : app/CMakeFiles/patternsearch.dir/rule
+
+# Convenience name for target.
+patternsearch: app/CMakeFiles/patternsearch.dir/rule
+
+.PHONY : patternsearch
+
+# fast build rule for target.
+patternsearch/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternsearch.dir/build.make app/CMakeFiles/patternsearch.dir/build
+.PHONY : patternsearch/fast
+
+# Convenience name for target.
 app/CMakeFiles/longestsequence.dir/rule:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestsequence.dir/rule
 .PHONY : app/CMakeFiles/longestsequence.dir/rule
@@ -229,6 +244,21 @@ balancedbrackets: app/CMakeFiles/balancedbrackets.dir/rule
 balancedbrackets/fast:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
 .PHONY : balancedbrackets/fast
+
+# Convenience name for target.
+app/CMakeFiles/mergeSorted.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mergeSorted.dir/rule
+.PHONY : app/CMakeFiles/mergeSorted.dir/rule
+
+# Convenience name for target.
+mergeSorted: app/CMakeFiles/mergeSorted.dir/rule
+
+.PHONY : mergeSorted
+
+# fast build rule for target.
+mergeSorted/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/build
+.PHONY : mergeSorted/fast
 
 # Convenience name for target.
 app/CMakeFiles/minheap.dir/rule:
@@ -491,6 +521,33 @@ memMove.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/memMove.cpp.s
 .PHONY : memMove.cpp.s
 
+mergeSorted.o: mergeSorted.cpp.o
+
+.PHONY : mergeSorted.o
+
+# target to build an object file
+mergeSorted.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.o
+.PHONY : mergeSorted.cpp.o
+
+mergeSorted.i: mergeSorted.cpp.i
+
+.PHONY : mergeSorted.i
+
+# target to preprocess a source file
+mergeSorted.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.i
+.PHONY : mergeSorted.cpp.i
+
+mergeSorted.s: mergeSorted.cpp.s
+
+.PHONY : mergeSorted.s
+
+# target to generate assembly for a file
+mergeSorted.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.s
+.PHONY : mergeSorted.cpp.s
+
 minHeap.o: minHeap.cpp.o
 
 .PHONY : minHeap.o
@@ -517,6 +574,33 @@ minHeap.s: minHeap.cpp.s
 minHeap.cpp.s:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minheap.dir/build.make app/CMakeFiles/minheap.dir/minHeap.cpp.s
 .PHONY : minHeap.cpp.s
+
+patternSearch.o: patternSearch.cpp.o
+
+.PHONY : patternSearch.o
+
+# target to build an object file
+patternSearch.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternsearch.dir/build.make app/CMakeFiles/patternsearch.dir/patternSearch.cpp.o
+.PHONY : patternSearch.cpp.o
+
+patternSearch.i: patternSearch.cpp.i
+
+.PHONY : patternSearch.i
+
+# target to preprocess a source file
+patternSearch.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternsearch.dir/build.make app/CMakeFiles/patternsearch.dir/patternSearch.cpp.i
+.PHONY : patternSearch.cpp.i
+
+patternSearch.s: patternSearch.cpp.s
+
+.PHONY : patternSearch.s
+
+# target to generate assembly for a file
+patternSearch.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternsearch.dir/build.make app/CMakeFiles/patternsearch.dir/patternSearch.cpp.s
+.PHONY : patternSearch.cpp.s
 
 reverseArray.o: reverseArray.cpp.o
 
@@ -583,11 +667,13 @@ help:
 	@echo "... longestvalidbrackets"
 	@echo "... edit_cache"
 	@echo "... longestcontinuoussequence"
+	@echo "... patternsearch"
 	@echo "... longestsequence"
 	@echo "... binarytree"
 	@echo "... memmove"
 	@echo "... functors"
 	@echo "... balancedbrackets"
+	@echo "... mergeSorted"
 	@echo "... minheap"
 	@echo "... sumofbits"
 	@echo "... linkedlist"
@@ -615,9 +701,15 @@ help:
 	@echo "... memMove.o"
 	@echo "... memMove.i"
 	@echo "... memMove.s"
+	@echo "... mergeSorted.o"
+	@echo "... mergeSorted.i"
+	@echo "... mergeSorted.s"
 	@echo "... minHeap.o"
 	@echo "... minHeap.i"
 	@echo "... minHeap.s"
+	@echo "... patternSearch.o"
+	@echo "... patternSearch.i"
+	@echo "... patternSearch.s"
 	@echo "... reverseArray.o"
 	@echo "... reverseArray.i"
 	@echo "... reverseArray.s"

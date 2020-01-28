@@ -8,7 +8,6 @@ using std::array;
 
 template<class T>
 void memmove(T* src, T* dest, size_t size) {
-
   if (src == dest)
     return;
 

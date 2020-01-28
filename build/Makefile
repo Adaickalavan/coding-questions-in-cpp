@@ -150,6 +150,19 @@ longestcontinuoussequence/fast:
 .PHONY : longestcontinuoussequence/fast
 
 #=============================================================================
+# Target rules for targets named patternsearch
+
+# Build rule for target.
+patternsearch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 patternsearch
+.PHONY : patternsearch
+
+# fast build rule for target.
+patternsearch/fast:
+	$(MAKE) -f app/CMakeFiles/patternsearch.dir/build.make app/CMakeFiles/patternsearch.dir/build
+.PHONY : patternsearch/fast
+
+#=============================================================================
 # Target rules for targets named longestsequence
 
 # Build rule for target.
@@ -215,6 +228,19 @@ balancedbrackets/fast:
 .PHONY : balancedbrackets/fast
 
 #=============================================================================
+# Target rules for targets named mergeSorted
+
+# Build rule for target.
+mergeSorted: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mergeSorted
+.PHONY : mergeSorted
+
+# fast build rule for target.
+mergeSorted/fast:
+	$(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/build
+.PHONY : mergeSorted/fast
+
+#=============================================================================
 # Target rules for targets named minheap
 
 # Build rule for target.
@@ -264,11 +290,13 @@ help:
 	@echo "... reversearray"
 	@echo "... longestvalidbrackets"
 	@echo "... longestcontinuoussequence"
+	@echo "... patternsearch"
 	@echo "... longestsequence"
 	@echo "... binarytree"
 	@echo "... memmove"
 	@echo "... functors"
 	@echo "... balancedbrackets"
+	@echo "... mergeSorted"
 	@echo "... minheap"
 	@echo "... sumofbits"
 	@echo "... linkedlist"

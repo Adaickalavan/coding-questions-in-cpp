@@ -30,7 +30,7 @@ node* LinkedList::insert(int value){
     if (head == NULL){
         head = new node{.value=value, .next=NULL};
         tail = head;
-        return head;
+        return tail;
     } else {
         tail->next = new node{.value=value, .next=NULL};
         tail = tail->next;
@@ -70,6 +70,14 @@ node* LinkedList::reverse(node* cur, node* next){
     return reverse(next, nextnext);
 }
 
+//Merge Sort for linked list
+// void LinkedList::sort(){
+//     if (head == NULL){
+//         return;
+//     }
+//     sort(head,)
+// }
+
 void LinkedList::sort(){
 
 }
@@ -85,8 +93,8 @@ int main(void){
     LinkedList list;
 
     // Insert
-    list.insert(1);
     list.insert(2);
+    list.insert(1);
     list.insert(3);
     node* ptr4 = list.insert(4);
     list.insert(5);

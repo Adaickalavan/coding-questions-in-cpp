@@ -37,5 +37,4 @@ int main(void){
         cout << "(" << myQ.top().key << " " << myQ.top().value << ")" << endl;
         myQ.pop();
     }
-
 }
