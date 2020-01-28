@@ -1,5 +1,3 @@
 # Coding questions in Cpp
 
-Challenge programming questions in C++.
-
-In this post, we will answer several programming challenge questions in C++. These questions are often asked as part of interviews.
+See [website](https://adaickalavan.github.io/portfolio/coding-questions-in-cpp/) for information.
