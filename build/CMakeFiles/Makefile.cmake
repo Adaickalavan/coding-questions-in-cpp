@@ -116,6 +116,22 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+<<<<<<< HEAD
   "app/CMakeFiles/kthLargest.dir/DependInfo.cmake"
   "app/CMakeFiles/traverseGrid.dir/DependInfo.cmake"
+=======
+  "app/CMakeFiles/reversearray.dir/DependInfo.cmake"
+  "app/CMakeFiles/longestvalidbrackets.dir/DependInfo.cmake"
+  "app/CMakeFiles/longestcontinuoussequence.dir/DependInfo.cmake"
+  "app/CMakeFiles/patternsearch.dir/DependInfo.cmake"
+  "app/CMakeFiles/longestsequence.dir/DependInfo.cmake"
+  "app/CMakeFiles/binarytree.dir/DependInfo.cmake"
+  "app/CMakeFiles/memmove.dir/DependInfo.cmake"
+  "app/CMakeFiles/functors.dir/DependInfo.cmake"
+  "app/CMakeFiles/balancedbrackets.dir/DependInfo.cmake"
+  "app/CMakeFiles/mergeSorted.dir/DependInfo.cmake"
+  "app/CMakeFiles/minheap.dir/DependInfo.cmake"
+  "app/CMakeFiles/sumofbits.dir/DependInfo.cmake"
+  "app/CMakeFiles/linkedlist.dir/DependInfo.cmake"
+>>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c
   )
