@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/linkedlist.dir/linkedList.cpp.o  -o ../../bin/linkedlist 

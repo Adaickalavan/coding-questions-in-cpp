@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-﻿add_executable(kthLargest
-    ./kthLargest.cpp)   
-add_executable(traverseGrid
-    ./traverseGrid.cpp) 
-=======
 ﻿add_executable(memmove 
     ./memMove.cpp)
 add_executable(binarytree 
@@ -30,4 +24,3 @@ add_executable(patternsearch
     ./patternSearch.cpp)   
 add_executable(mergeSorted
     ./mergeSorted.cpp)       
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c

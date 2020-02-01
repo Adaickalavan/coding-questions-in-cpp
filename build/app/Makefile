@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/app/CMakeFiles/progress.marks
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/progress.marks
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,52 +97,49 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-app/CMakeFiles/kthLargest.dir/rule:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/kthLargest.dir/rule
-.PHONY : app/CMakeFiles/kthLargest.dir/rule
+app/CMakeFiles/reversearray.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reversearray.dir/rule
+.PHONY : app/CMakeFiles/reversearray.dir/rule
 
 # Convenience name for target.
-kthLargest: app/CMakeFiles/kthLargest.dir/rule
+reversearray: app/CMakeFiles/reversearray.dir/rule
 
-.PHONY : kthLargest
+.PHONY : reversearray
 
 # fast build rule for target.
-kthLargest/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
-.PHONY : kthLargest/fast
+reversearray/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
+.PHONY : reversearray/fast
 
 # Convenience name for target.
-app/CMakeFiles/traverseGrid.dir/rule:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/traverseGrid.dir/rule
-.PHONY : app/CMakeFiles/traverseGrid.dir/rule
+app/CMakeFiles/longestvalidbrackets.dir/rule:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestvalidbrackets.dir/rule
+.PHONY : app/CMakeFiles/longestvalidbrackets.dir/rule
 
 # Convenience name for target.
-traverseGrid: app/CMakeFiles/traverseGrid.dir/rule
+longestvalidbrackets: app/CMakeFiles/longestvalidbrackets.dir/rule
 
-.PHONY : traverseGrid
+.PHONY : longestvalidbrackets
 
 # fast build rule for target.
-traverseGrid/fast:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/build
-.PHONY : traverseGrid/fast
+longestvalidbrackets/fast:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/build
+.PHONY : longestvalidbrackets/fast
 
-<<<<<<< HEAD
-kthLargest.o: kthLargest.cpp.o
-=======
 # Convenience name for target.
 app/CMakeFiles/longestcontinuoussequence.dir/rule:
 	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestcontinuoussequence.dir/rule
@@ -606,59 +603,58 @@ patternSearch.cpp.s:
 .PHONY : patternSearch.cpp.s
 
 reverseArray.o: reverseArray.cpp.o
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c
 
-.PHONY : kthLargest.o
-
-# target to build an object file
-kthLargest.cpp.o:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.o
-.PHONY : kthLargest.cpp.o
-
-kthLargest.i: kthLargest.cpp.i
-
-.PHONY : kthLargest.i
-
-# target to preprocess a source file
-kthLargest.cpp.i:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.i
-.PHONY : kthLargest.cpp.i
-
-kthLargest.s: kthLargest.cpp.s
-
-.PHONY : kthLargest.s
-
-# target to generate assembly for a file
-kthLargest.cpp.s:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.s
-.PHONY : kthLargest.cpp.s
-
-traverseGrid.o: traverseGrid.cpp.o
-
-.PHONY : traverseGrid.o
+.PHONY : reverseArray.o
 
 # target to build an object file
-traverseGrid.cpp.o:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/traverseGrid.cpp.o
-.PHONY : traverseGrid.cpp.o
+reverseArray.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.o
+.PHONY : reverseArray.cpp.o
 
-traverseGrid.i: traverseGrid.cpp.i
+reverseArray.i: reverseArray.cpp.i
 
-.PHONY : traverseGrid.i
+.PHONY : reverseArray.i
 
 # target to preprocess a source file
-traverseGrid.cpp.i:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/traverseGrid.cpp.i
-.PHONY : traverseGrid.cpp.i
+reverseArray.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.i
+.PHONY : reverseArray.cpp.i
 
-traverseGrid.s: traverseGrid.cpp.s
+reverseArray.s: reverseArray.cpp.s
 
-.PHONY : traverseGrid.s
+.PHONY : reverseArray.s
 
 # target to generate assembly for a file
-traverseGrid.cpp.s:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/traverseGrid.cpp.s
-.PHONY : traverseGrid.cpp.s
+reverseArray.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.s
+.PHONY : reverseArray.cpp.s
+
+sumOfBits.o: sumOfBits.cpp.o
+
+.PHONY : sumOfBits.o
+
+# target to build an object file
+sumOfBits.cpp.o:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.o
+.PHONY : sumOfBits.cpp.o
+
+sumOfBits.i: sumOfBits.cpp.i
+
+.PHONY : sumOfBits.i
+
+# target to preprocess a source file
+sumOfBits.cpp.i:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.i
+.PHONY : sumOfBits.cpp.i
+
+sumOfBits.s: sumOfBits.cpp.s
+
+.PHONY : sumOfBits.s
+
+# target to generate assembly for a file
+sumOfBits.cpp.s:
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.s
+.PHONY : sumOfBits.cpp.s
 
 # Help Target
 help:
@@ -667,17 +663,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... reversearray"
+	@echo "... longestvalidbrackets"
 	@echo "... edit_cache"
-<<<<<<< HEAD
-	@echo "... kthLargest"
-	@echo "... traverseGrid"
-	@echo "... kthLargest.o"
-	@echo "... kthLargest.i"
-	@echo "... kthLargest.s"
-	@echo "... traverseGrid.o"
-	@echo "... traverseGrid.i"
-	@echo "... traverseGrid.s"
-=======
 	@echo "... longestcontinuoussequence"
 	@echo "... patternsearch"
 	@echo "... longestsequence"
@@ -728,7 +716,6 @@ help:
 	@echo "... sumOfBits.o"
 	@echo "... sumOfBits.i"
 	@echo "... sumOfBits.s"
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c
 .PHONY : help
 
 
@@ -740,6 +727,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

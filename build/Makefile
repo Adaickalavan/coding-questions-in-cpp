@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,32 +111,27 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kthLargest
+# Target rules for targets named reversearray
 
 # Build rule for target.
-kthLargest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kthLargest
-.PHONY : kthLargest
+reversearray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reversearray
+.PHONY : reversearray
 
 # fast build rule for target.
-kthLargest/fast:
-	$(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
-.PHONY : kthLargest/fast
+reversearray/fast:
+	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
+.PHONY : reversearray/fast
 
 #=============================================================================
-# Target rules for targets named traverseGrid
+# Target rules for targets named longestvalidbrackets
 
 # Build rule for target.
-traverseGrid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 traverseGrid
-.PHONY : traverseGrid
+longestvalidbrackets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longestvalidbrackets
+.PHONY : longestvalidbrackets
 
 # fast build rule for target.
-<<<<<<< HEAD
-traverseGrid/fast:
-	$(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/build
-.PHONY : traverseGrid/fast
-=======
 longestvalidbrackets/fast:
 	$(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/build
 .PHONY : longestvalidbrackets/fast
@@ -283,7 +278,6 @@ linkedlist: cmake_check_build_system
 linkedlist/fast:
 	$(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/build
 .PHONY : linkedlist/fast
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c
 
 # Help Target
 help:
@@ -293,10 +287,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-<<<<<<< HEAD
-	@echo "... kthLargest"
-	@echo "... traverseGrid"
-=======
 	@echo "... reversearray"
 	@echo "... longestvalidbrackets"
 	@echo "... longestcontinuoussequence"
@@ -310,7 +300,6 @@ help:
 	@echo "... minheap"
 	@echo "... sumofbits"
 	@echo "... linkedlist"
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c
 .PHONY : help
 
 

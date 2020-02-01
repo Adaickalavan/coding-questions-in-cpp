@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/longestsubstring.dir/longestSubstring.cpp.o  -o ../../bin/longestsubstring 

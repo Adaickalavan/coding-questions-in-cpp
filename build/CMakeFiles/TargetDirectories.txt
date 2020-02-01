@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles/rebuild_cache.dir
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles/edit_cache.dir
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/app/CMakeFiles/rebuild_cache.dir
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/app/CMakeFiles/edit_cache.dir
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/app/CMakeFiles/kthLargest.dir
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/app/CMakeFiles/traverseGrid.dir
-=======
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/rebuild_cache.dir
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/edit_cache.dir
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/rebuild_cache.dir
@@ -23,4 +15,3 @@
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/minheap.dir
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/sumofbits.dir
 /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/linkedlist.dir
->>>>>>> d114208ba88a38361e827f7baa4c022c4865b13c

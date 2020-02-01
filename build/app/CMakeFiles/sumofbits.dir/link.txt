@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/sumofbits.dir/sumOfBits.cpp.o  -o ../../bin/sumofbits 
