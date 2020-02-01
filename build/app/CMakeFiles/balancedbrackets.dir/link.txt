@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o  -o ../../bin/balancedbrackets 

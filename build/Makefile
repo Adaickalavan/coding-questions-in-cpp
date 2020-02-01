@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,147 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named reversearray
+# Target rules for targets named kthLargest
 
 # Build rule for target.
-reversearray: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reversearray
-.PHONY : reversearray
+kthLargest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kthLargest
+.PHONY : kthLargest
 
 # fast build rule for target.
-reversearray/fast:
-	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
-.PHONY : reversearray/fast
+kthLargest/fast:
+	$(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
+.PHONY : kthLargest/fast
 
 #=============================================================================
-# Target rules for targets named longestvalidbrackets
+# Target rules for targets named traverseGrid
 
 # Build rule for target.
-longestvalidbrackets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestvalidbrackets
-.PHONY : longestvalidbrackets
+traverseGrid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traverseGrid
+.PHONY : traverseGrid
 
 # fast build rule for target.
-longestvalidbrackets/fast:
-	$(MAKE) -f app/CMakeFiles/longestvalidbrackets.dir/build.make app/CMakeFiles/longestvalidbrackets.dir/build
-.PHONY : longestvalidbrackets/fast
-
-#=============================================================================
-# Target rules for targets named longestcontinuoussequence
-
-# Build rule for target.
-longestcontinuoussequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestcontinuoussequence
-.PHONY : longestcontinuoussequence
-
-# fast build rule for target.
-longestcontinuoussequence/fast:
-	$(MAKE) -f app/CMakeFiles/longestcontinuoussequence.dir/build.make app/CMakeFiles/longestcontinuoussequence.dir/build
-.PHONY : longestcontinuoussequence/fast
-
-#=============================================================================
-# Target rules for targets named longestsequence
-
-# Build rule for target.
-longestsequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestsequence
-.PHONY : longestsequence
-
-# fast build rule for target.
-longestsequence/fast:
-	$(MAKE) -f app/CMakeFiles/longestsequence.dir/build.make app/CMakeFiles/longestsequence.dir/build
-.PHONY : longestsequence/fast
-
-#=============================================================================
-# Target rules for targets named binarytree
-
-# Build rule for target.
-binarytree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binarytree
-.PHONY : binarytree
-
-# fast build rule for target.
-binarytree/fast:
-	$(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/build
-.PHONY : binarytree/fast
-
-#=============================================================================
-# Target rules for targets named memmove
-
-# Build rule for target.
-memmove: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 memmove
-.PHONY : memmove
-
-# fast build rule for target.
-memmove/fast:
-	$(MAKE) -f app/CMakeFiles/memmove.dir/build.make app/CMakeFiles/memmove.dir/build
-.PHONY : memmove/fast
-
-#=============================================================================
-# Target rules for targets named functors
-
-# Build rule for target.
-functors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 functors
-.PHONY : functors
-
-# fast build rule for target.
-functors/fast:
-	$(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/build
-.PHONY : functors/fast
-
-#=============================================================================
-# Target rules for targets named balancedbrackets
-
-# Build rule for target.
-balancedbrackets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 balancedbrackets
-.PHONY : balancedbrackets
-
-# fast build rule for target.
-balancedbrackets/fast:
-	$(MAKE) -f app/CMakeFiles/balancedbrackets.dir/build.make app/CMakeFiles/balancedbrackets.dir/build
-.PHONY : balancedbrackets/fast
-
-#=============================================================================
-# Target rules for targets named minheap
-
-# Build rule for target.
-minheap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minheap
-.PHONY : minheap
-
-# fast build rule for target.
-minheap/fast:
-	$(MAKE) -f app/CMakeFiles/minheap.dir/build.make app/CMakeFiles/minheap.dir/build
-.PHONY : minheap/fast
-
-#=============================================================================
-# Target rules for targets named sumofbits
-
-# Build rule for target.
-sumofbits: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sumofbits
-.PHONY : sumofbits
-
-# fast build rule for target.
-sumofbits/fast:
-	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
-.PHONY : sumofbits/fast
-
-#=============================================================================
-# Target rules for targets named linkedlist
-
-# Build rule for target.
-linkedlist: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linkedlist
-.PHONY : linkedlist
-
-# fast build rule for target.
-linkedlist/fast:
-	$(MAKE) -f app/CMakeFiles/linkedlist.dir/build.make app/CMakeFiles/linkedlist.dir/build
-.PHONY : linkedlist/fast
+traverseGrid/fast:
+	$(MAKE) -f app/CMakeFiles/traverseGrid.dir/build.make app/CMakeFiles/traverseGrid.dir/build
+.PHONY : traverseGrid/fast
 
 # Help Target
 help:
@@ -261,17 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... reversearray"
-	@echo "... longestvalidbrackets"
-	@echo "... longestcontinuoussequence"
-	@echo "... longestsequence"
-	@echo "... binarytree"
-	@echo "... memmove"
-	@echo "... functors"
-	@echo "... balancedbrackets"
-	@echo "... minheap"
-	@echo "... sumofbits"
-	@echo "... linkedlist"
+	@echo "... kthLargest"
+	@echo "... traverseGrid"
 .PHONY : help
 
 

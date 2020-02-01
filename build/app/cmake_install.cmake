@@ -1,4 +1,4 @@
-# Install script for directory: /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app
+# Install script for directory: /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

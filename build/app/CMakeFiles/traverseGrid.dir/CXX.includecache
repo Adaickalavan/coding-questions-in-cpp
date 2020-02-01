@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/app/traverseGrid.cpp
+iostream
+-
+vector
+-
+array
+-
+queue
+-
+set
+-
+iterator
+-
+functional
+-
+

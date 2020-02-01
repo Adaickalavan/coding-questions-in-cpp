@@ -1,24 +1,4 @@
-﻿add_executable(memmove 
-    ./memMove.cpp)
-add_executable(binarytree 
-    ./binaryTree.cpp)
-add_executable(balancedbrackets 
-    ./balancedBrackets.cpp) 
-add_executable(sumofbits 
-    ./sumOfBits.cpp) 
-add_executable(linkedlist 
-    ./linkedList.cpp) 
-add_executable(minheap 
-    ./minHeap.cpp)     
-add_executable(functors 
-    ./functors.cpp)      
-add_executable(longestsequence 
-    ./longestSequence.cpp)       
-add_executable(longestcontinuoussequence 
-    ./longestContinuousSequence.cpp)      
-add_executable(longestvalidbrackets 
-    ./longestValidBrackets.cpp)      
-add_executable(reversearray 
-    ./reverseArray.cpp)   
-# add_executable(reversearray 
-#     ./reverseArray.cpp) 
+﻿add_executable(kthLargest
+    ./kthLargest.cpp)   
+add_executable(traverseGrid
+    ./traverseGrid.cpp) 
