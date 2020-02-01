@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/Huawei/app/kthLargest.cpp
+iostream
+-
+queue
+-
+
