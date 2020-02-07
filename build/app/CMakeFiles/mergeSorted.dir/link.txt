@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/mergeSorted.dir/mergeSorted.cpp.o  -o ../../bin/mergeSorted 

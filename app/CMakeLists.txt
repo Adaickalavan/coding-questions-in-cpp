@@ -23,4 +23,4 @@ add_executable(reversearray
 add_executable(patternsearch
     ./patternSearch.cpp)   
 add_executable(mergeSorted
-    ./mergeSorted.cpp)       
+    ./mergeSorted.cpp)         
