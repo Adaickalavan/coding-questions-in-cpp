@@ -24,3 +24,7 @@ add_executable(patternsearch
     ./patternSearch.cpp)   
 add_executable(mergeSorted
     ./mergeSorted.cpp)         
+add_executable(kthLargest
+    ./kthLargest.cpp)  
+add_executable(mutatablePriorityQueue
+    ./mutatablePriorityQueue.cpp)         
