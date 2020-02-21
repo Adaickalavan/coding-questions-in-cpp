@@ -104,8 +104,7 @@ int main(){
     mpq.pop();
     cout << mpq.size() << "\n";
     cout << mpq.top() << "\n";
-    cout << std::boolalpha;
-    cout << "Priority queue is empty = " << mpq.empty() << "\n";
+    cout << "Priority queue is empty = " << std::boolalpha << mpq.empty() << "\n";
 
     return 0;
 }
