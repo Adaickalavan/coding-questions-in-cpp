@@ -17,10 +17,12 @@ class LinkedList{
         void del(node* ptr);
         node* reverse();
         void sort();
+        void printReverse();
     private:
         node* head{NULL};
         node* tail{NULL};
         node* reverse(node* cur, node* next);
+        void printReverse(node* it);
 };
 
 LinkedList::LinkedList(){
@@ -78,6 +80,21 @@ node* LinkedList::reverse(node* cur, node* next){
 //     sort(head,)
 // }
 
+void LinkedList::printReverse(){
+    if (head == NULL){
+        return;
+    }
+    printReverse(head);
+    cout << "\n"; 
+}
+
+void LinkedList::printReverse(node* it){
+    if (it->next != NULL){
+        printReverse(it->next);
+    }
+    cout << it->value << ", "; 
+}
+
 void LinkedList::sort(){
 
 }
@@ -114,4 +131,7 @@ int main(void){
     // Sort
     list.sort();
     list.printer();
+
+    // Print reverse
+    list.printReverse();
 }

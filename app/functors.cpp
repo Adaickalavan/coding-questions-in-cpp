@@ -1,8 +1,10 @@
 #include <iostream>
+#include <memory>
 #include <string>
 
 using std::cout;
 using std::string;
+using std::unique_ptr;
 
 double adder(double left, double right){
   return left+right+100;
@@ -42,24 +44,26 @@ public:
   double operator() (double left, double right) override { return left*right; };
 };
 
-double binary_op(double left, double right, BinaryFunction* bin_func, double func(double left, double right)) {
-  cout << (bin_func->multipleReturnValues()).cc << " - " << (bin_func->multipleReturnValues()).ii << "\n";
-  cout << func(left,right) << "\n";
-  return (*bin_func)(left, right);
+void binary_op(double left, double right, unique_ptr<BinaryFunction>& bin_func, double func(double left, double right)) {
+  cout << (bin_func.get()->multipleReturnValues()).ss << " - ";
+  cout << (bin_func.get()->multipleReturnValues()).ii << " - ";
+  cout << func(left,right) << " - ";
+  cout << (*bin_func.get())(left, right) <<"\n";
+  return;
 }
 
-int main( ) {
+int main() {
   double a = 5.0;
   double b = 10.0;
 
-  BinaryFunction* pAdd = new Add();
-  BinaryFunction* pMultiply = new Multiply();
+  unique_ptr<BinaryFunction> pAdd(new Add());
+  unique_ptr<BinaryFunction> pMultiply(new Multiply());
 
-  std::cout << "Add: " << binary_op(a, b, pAdd, adder) << std::endl;
-  std::cout << "Multiply: " << binary_op(a, b, pMultiply, multiplier) << std::endl;
+  binary_op(a, b, pAdd, adder);
+  binary_op(a, b, pMultiply, multiplier);
 
-  delete pAdd;
-  delete pMultiply;
+  // delete pAdd;
+  // delete pMultiply;
 
   return 0;
 }
