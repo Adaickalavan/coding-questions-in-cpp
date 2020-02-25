@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o"
-  "../../bin/mutatablePriorityQueue.pdb"
-  "../../bin/mutatablePriorityQueue"
+  "mutatablePriorityQueue.pdb"
+  "mutatablePriorityQueue"
 )
 
 # Per-language clean rules from dependency scanning.

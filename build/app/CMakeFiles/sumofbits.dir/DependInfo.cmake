@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/sumOfBits.cpp" "/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.o"
+  "/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/sumOfBits.cpp" "/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/sumofbits.dir/sumOfBits.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

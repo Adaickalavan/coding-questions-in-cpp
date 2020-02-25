@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/reversearray.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/reversearray.dir/flags.make
 
 app/CMakeFiles/reversearray.dir/reverseArray.cpp.o: app/CMakeFiles/reversearray.dir/flags.make
 app/CMakeFiles/reversearray.dir/reverseArray.cpp.o: ../app/reverseArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/reversearray.dir/reverseArray.cpp.o"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reversearray.dir/reverseArray.cpp.o -c /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/reversearray.dir/reverseArray.cpp.o"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reversearray.dir/reverseArray.cpp.o -c /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp
 
 app/CMakeFiles/reversearray.dir/reverseArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reversearray.dir/reverseArray.cpp.i"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp > CMakeFiles/reversearray.dir/reverseArray.cpp.i
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp > CMakeFiles/reversearray.dir/reverseArray.cpp.i
 
 app/CMakeFiles/reversearray.dir/reverseArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reversearray.dir/reverseArray.cpp.s"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp -o CMakeFiles/reversearray.dir/reverseArray.cpp.s
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/reverseArray.cpp -o CMakeFiles/reversearray.dir/reverseArray.cpp.s
 
 app/CMakeFiles/reversearray.dir/reverseArray.cpp.o.requires:
 
@@ -88,14 +88,14 @@ reversearray_OBJECTS = \
 # External object files for target reversearray
 reversearray_EXTERNAL_OBJECTS =
 
-../bin/reversearray: app/CMakeFiles/reversearray.dir/reverseArray.cpp.o
-../bin/reversearray: app/CMakeFiles/reversearray.dir/build.make
-../bin/reversearray: app/CMakeFiles/reversearray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/reversearray"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reversearray.dir/link.txt --verbose=$(VERBOSE)
+app/reversearray: app/CMakeFiles/reversearray.dir/reverseArray.cpp.o
+app/reversearray: app/CMakeFiles/reversearray.dir/build.make
+app/reversearray: app/CMakeFiles/reversearray.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable reversearray"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reversearray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-app/CMakeFiles/reversearray.dir/build: ../bin/reversearray
+app/CMakeFiles/reversearray.dir/build: app/reversearray
 
 .PHONY : app/CMakeFiles/reversearray.dir/build
 
@@ -104,10 +104,10 @@ app/CMakeFiles/reversearray.dir/requires: app/CMakeFiles/reversearray.dir/revers
 .PHONY : app/CMakeFiles/reversearray.dir/requires
 
 app/CMakeFiles/reversearray.dir/clean:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/reversearray.dir/cmake_clean.cmake
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/reversearray.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/reversearray.dir/clean
 
 app/CMakeFiles/reversearray.dir/depend:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/reversearray.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/reversearray.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/reversearray.dir/depend
 

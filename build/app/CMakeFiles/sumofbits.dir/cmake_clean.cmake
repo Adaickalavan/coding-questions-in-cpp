@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sumofbits.dir/sumOfBits.cpp.o"
-  "../../bin/sumofbits.pdb"
-  "../../bin/sumofbits"
+  "sumofbits.pdb"
+  "sumofbits"
 )
 
 # Per-language clean rules from dependency scanning.

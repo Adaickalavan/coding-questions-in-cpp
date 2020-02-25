@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/memmove.dir/memMove.cpp.o  -o ../../bin/memmove 
+/usr/bin/c++     CMakeFiles/memmove.dir/memMove.cpp.o  -o memmove 

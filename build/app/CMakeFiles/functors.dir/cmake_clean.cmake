@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/functors.dir/functors.cpp.o"
-  "../../bin/functors.pdb"
-  "../../bin/functors"
+  "functors.pdb"
+  "functors"
 )
 
 # Per-language clean rules from dependency scanning.

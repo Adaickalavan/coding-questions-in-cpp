@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/kthLargest.dir/kthLargest.cpp.o  -o ../../bin/kthLargest 
+/usr/bin/c++     CMakeFiles/kthLargest.dir/kthLargest.cpp.o  -o kthLargest 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kthLargest.dir/kthLargest.cpp.o"
-  "../../bin/kthLargest.pdb"
-  "../../bin/kthLargest"
+  "kthLargest.pdb"
+  "kthLargest"
 )
 
 # Per-language clean rules from dependency scanning.

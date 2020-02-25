@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/functors.dir/functors.cpp.o  -o ../../bin/functors 
+/usr/bin/c++     CMakeFiles/functors.dir/functors.cpp.o  -o functors 

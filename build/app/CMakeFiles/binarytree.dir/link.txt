@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/binarytree.dir/binaryTree.cpp.o  -o ../../bin/binarytree 
+/usr/bin/c++     CMakeFiles/binarytree.dir/binaryTree.cpp.o  -o binarytree 

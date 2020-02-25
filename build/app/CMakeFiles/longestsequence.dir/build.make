@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/longestsequence.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/longestsequence.dir/flags.make
 
 app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o: app/CMakeFiles/longestsequence.dir/flags.make
 app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o: ../app/longestSequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/longestsequence.dir/longestSequence.cpp.o -c /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/longestsequence.dir/longestSequence.cpp.o -c /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp
 
 app/CMakeFiles/longestsequence.dir/longestSequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/longestsequence.dir/longestSequence.cpp.i"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp > CMakeFiles/longestsequence.dir/longestSequence.cpp.i
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp > CMakeFiles/longestsequence.dir/longestSequence.cpp.i
 
 app/CMakeFiles/longestsequence.dir/longestSequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/longestsequence.dir/longestSequence.cpp.s"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp -o CMakeFiles/longestsequence.dir/longestSequence.cpp.s
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/longestSequence.cpp -o CMakeFiles/longestsequence.dir/longestSequence.cpp.s
 
 app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o.requires:
 
@@ -88,14 +88,14 @@ longestsequence_OBJECTS = \
 # External object files for target longestsequence
 longestsequence_EXTERNAL_OBJECTS =
 
-../bin/longestsequence: app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o
-../bin/longestsequence: app/CMakeFiles/longestsequence.dir/build.make
-../bin/longestsequence: app/CMakeFiles/longestsequence.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/longestsequence"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/longestsequence.dir/link.txt --verbose=$(VERBOSE)
+app/longestsequence: app/CMakeFiles/longestsequence.dir/longestSequence.cpp.o
+app/longestsequence: app/CMakeFiles/longestsequence.dir/build.make
+app/longestsequence: app/CMakeFiles/longestsequence.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable longestsequence"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/longestsequence.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-app/CMakeFiles/longestsequence.dir/build: ../bin/longestsequence
+app/CMakeFiles/longestsequence.dir/build: app/longestsequence
 
 .PHONY : app/CMakeFiles/longestsequence.dir/build
 
@@ -104,10 +104,10 @@ app/CMakeFiles/longestsequence.dir/requires: app/CMakeFiles/longestsequence.dir/
 .PHONY : app/CMakeFiles/longestsequence.dir/requires
 
 app/CMakeFiles/longestsequence.dir/clean:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/longestsequence.dir/cmake_clean.cmake
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/longestsequence.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/longestsequence.dir/clean
 
 app/CMakeFiles/longestsequence.dir/depend:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/longestsequence.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/longestsequence.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/longestsequence.dir/depend
 

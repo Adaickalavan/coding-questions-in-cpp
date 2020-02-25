@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/sumofbits.dir/sumOfBits.cpp.o  -o ../../bin/sumofbits 
+/usr/bin/c++     CMakeFiles/sumofbits.dir/sumOfBits.cpp.o  -o sumofbits 

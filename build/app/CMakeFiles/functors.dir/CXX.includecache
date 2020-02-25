@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/functors.cpp
+/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/functors.cpp
 iostream
+-
+string
 -
 

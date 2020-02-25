@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/longestsequence.dir/longestSequence.cpp.o"
-  "../../bin/longestsequence.pdb"
-  "../../bin/longestsequence"
+  "longestsequence.pdb"
+  "longestsequence"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/memmove.dir/memMove.cpp.o"
-  "../../bin/memmove.pdb"
-  "../../bin/memmove"
+  "memmove.pdb"
+  "memmove"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/patternsearch.dir/patternSearch.cpp.o"
-  "../../bin/patternsearch.pdb"
-  "../../bin/patternsearch"
+  "patternsearch.pdb"
+  "patternsearch"
 )
 
 # Per-language clean rules from dependency scanning.

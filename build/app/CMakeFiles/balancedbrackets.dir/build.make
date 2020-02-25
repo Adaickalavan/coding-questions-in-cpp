@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/balancedbrackets.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/balancedbrackets.dir/flags.make
 
 app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o: app/CMakeFiles/balancedbrackets.dir/flags.make
 app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o: ../app/balancedBrackets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o -c /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o -c /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp
 
 app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.i"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp > CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.i
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp > CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.i
 
 app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.s"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp -o CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.s
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp -o CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.s
 
 app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o.requires:
 
@@ -88,14 +88,14 @@ balancedbrackets_OBJECTS = \
 # External object files for target balancedbrackets
 balancedbrackets_EXTERNAL_OBJECTS =
 
-../bin/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o
-../bin/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/build.make
-../bin/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/balancedbrackets"
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/balancedbrackets.dir/link.txt --verbose=$(VERBOSE)
+app/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/balancedBrackets.cpp.o
+app/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/build.make
+app/balancedbrackets: app/CMakeFiles/balancedbrackets.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable balancedbrackets"
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/balancedbrackets.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-app/CMakeFiles/balancedbrackets.dir/build: ../bin/balancedbrackets
+app/CMakeFiles/balancedbrackets.dir/build: app/balancedbrackets
 
 .PHONY : app/CMakeFiles/balancedbrackets.dir/build
 
@@ -104,10 +104,10 @@ app/CMakeFiles/balancedbrackets.dir/requires: app/CMakeFiles/balancedbrackets.di
 .PHONY : app/CMakeFiles/balancedbrackets.dir/requires
 
 app/CMakeFiles/balancedbrackets.dir/clean:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/balancedbrackets.dir/cmake_clean.cmake
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/balancedbrackets.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/balancedbrackets.dir/clean
 
 app/CMakeFiles/balancedbrackets.dir/depend:
-	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/balancedbrackets.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/balancedbrackets.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/balancedbrackets.dir/depend
 

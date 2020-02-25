@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mergeSorted.dir/mergeSorted.cpp.o"
-  "../../bin/mergeSorted.pdb"
-  "../../bin/mergeSorted"
+  "mergeSorted.pdb"
+  "mergeSorted"
 )
 
 # Per-language clean rules from dependency scanning.
