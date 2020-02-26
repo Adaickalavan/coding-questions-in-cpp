@@ -27,4 +27,6 @@ add_executable(mergeSorted
 add_executable(kthLargest
     ./kthLargest.cpp)  
 add_executable(mutatablePriorityQueue
-    ./mutatablePriorityQueue.cpp)         
+    ./mutatablePriorityQueue.cpp)   
+add_executable(findMissingNumber
+    ./findMissingNumber.cpp)             

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp
+iostream
+-
+numeric
+-
+tuple
+-
+vector
+-
+

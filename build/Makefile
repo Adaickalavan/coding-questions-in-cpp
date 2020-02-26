@@ -124,6 +124,19 @@ linkedlist/fast:
 .PHONY : linkedlist/fast
 
 #=============================================================================
+# Target rules for targets named sumofbits
+
+# Build rule for target.
+sumofbits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sumofbits
+.PHONY : sumofbits
+
+# fast build rule for target.
+sumofbits/fast:
+	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
+.PHONY : sumofbits/fast
+
+#=============================================================================
 # Target rules for targets named minheap
 
 # Build rule for target.
@@ -228,19 +241,6 @@ longestcontinuoussequence/fast:
 .PHONY : longestcontinuoussequence/fast
 
 #=============================================================================
-# Target rules for targets named sumofbits
-
-# Build rule for target.
-sumofbits: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sumofbits
-.PHONY : sumofbits
-
-# fast build rule for target.
-sumofbits/fast:
-	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
-.PHONY : sumofbits/fast
-
-#=============================================================================
 # Target rules for targets named binarytree
 
 # Build rule for target.
@@ -305,6 +305,19 @@ reversearray/fast:
 	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
 .PHONY : reversearray/fast
 
+#=============================================================================
+# Target rules for targets named findMissingNumber
+
+# Build rule for target.
+findMissingNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findMissingNumber
+.PHONY : findMissingNumber
+
+# fast build rule for target.
+findMissingNumber/fast:
+	$(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/build
+.PHONY : findMissingNumber/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +327,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... linkedlist"
+	@echo "... sumofbits"
 	@echo "... minheap"
 	@echo "... mergeSorted"
 	@echo "... balancedbrackets"
@@ -322,12 +336,12 @@ help:
 	@echo "... longestsequence"
 	@echo "... patternsearch"
 	@echo "... longestcontinuoussequence"
-	@echo "... sumofbits"
 	@echo "... binarytree"
 	@echo "... longestvalidbrackets"
 	@echo "... mutatablePriorityQueue"
 	@echo "... memmove"
 	@echo "... reversearray"
+	@echo "... findMissingNumber"
 .PHONY : help
 
 

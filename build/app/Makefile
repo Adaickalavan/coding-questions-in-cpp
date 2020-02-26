@@ -126,6 +126,21 @@ linkedlist/fast:
 .PHONY : linkedlist/fast
 
 # Convenience name for target.
+app/CMakeFiles/sumofbits.dir/rule:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumofbits.dir/rule
+.PHONY : app/CMakeFiles/sumofbits.dir/rule
+
+# Convenience name for target.
+sumofbits: app/CMakeFiles/sumofbits.dir/rule
+
+.PHONY : sumofbits
+
+# fast build rule for target.
+sumofbits/fast:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
+.PHONY : sumofbits/fast
+
+# Convenience name for target.
 app/CMakeFiles/minheap.dir/rule:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/minheap.dir/rule
 .PHONY : app/CMakeFiles/minheap.dir/rule
@@ -246,21 +261,6 @@ longestcontinuoussequence/fast:
 .PHONY : longestcontinuoussequence/fast
 
 # Convenience name for target.
-app/CMakeFiles/sumofbits.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumofbits.dir/rule
-.PHONY : app/CMakeFiles/sumofbits.dir/rule
-
-# Convenience name for target.
-sumofbits: app/CMakeFiles/sumofbits.dir/rule
-
-.PHONY : sumofbits
-
-# fast build rule for target.
-sumofbits/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
-.PHONY : sumofbits/fast
-
-# Convenience name for target.
 app/CMakeFiles/binarytree.dir/rule:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binarytree.dir/rule
 .PHONY : app/CMakeFiles/binarytree.dir/rule
@@ -335,6 +335,21 @@ reversearray/fast:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
 .PHONY : reversearray/fast
 
+# Convenience name for target.
+app/CMakeFiles/findMissingNumber.dir/rule:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/findMissingNumber.dir/rule
+.PHONY : app/CMakeFiles/findMissingNumber.dir/rule
+
+# Convenience name for target.
+findMissingNumber: app/CMakeFiles/findMissingNumber.dir/rule
+
+.PHONY : findMissingNumber
+
+# fast build rule for target.
+findMissingNumber/fast:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/build
+.PHONY : findMissingNumber/fast
+
 balancedBrackets.o: balancedBrackets.cpp.o
 
 .PHONY : balancedBrackets.o
@@ -388,6 +403,33 @@ binaryTree.s: binaryTree.cpp.s
 binaryTree.cpp.s:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binarytree.dir/build.make app/CMakeFiles/binarytree.dir/binaryTree.cpp.s
 .PHONY : binaryTree.cpp.s
+
+findMissingNumber.o: findMissingNumber.cpp.o
+
+.PHONY : findMissingNumber.o
+
+# target to build an object file
+findMissingNumber.cpp.o:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o
+.PHONY : findMissingNumber.cpp.o
+
+findMissingNumber.i: findMissingNumber.cpp.i
+
+.PHONY : findMissingNumber.i
+
+# target to preprocess a source file
+findMissingNumber.cpp.i:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i
+.PHONY : findMissingNumber.cpp.i
+
+findMissingNumber.s: findMissingNumber.cpp.s
+
+.PHONY : findMissingNumber.s
+
+# target to generate assembly for a file
+findMissingNumber.cpp.s:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s
+.PHONY : findMissingNumber.cpp.s
 
 functors.o: functors.cpp.o
 
@@ -748,6 +790,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... linkedlist"
+	@echo "... edit_cache"
+	@echo "... sumofbits"
 	@echo "... minheap"
 	@echo "... mergeSorted"
 	@echo "... balancedbrackets"
@@ -756,19 +800,21 @@ help:
 	@echo "... longestsequence"
 	@echo "... patternsearch"
 	@echo "... longestcontinuoussequence"
-	@echo "... sumofbits"
-	@echo "... edit_cache"
 	@echo "... binarytree"
 	@echo "... longestvalidbrackets"
 	@echo "... mutatablePriorityQueue"
 	@echo "... memmove"
 	@echo "... reversearray"
+	@echo "... findMissingNumber"
 	@echo "... balancedBrackets.o"
 	@echo "... balancedBrackets.i"
 	@echo "... balancedBrackets.s"
 	@echo "... binaryTree.o"
 	@echo "... binaryTree.i"
 	@echo "... binaryTree.s"
+	@echo "... findMissingNumber.o"
+	@echo "... findMissingNumber.i"
+	@echo "... findMissingNumber.s"
 	@echo "... functors.o"
 	@echo "... functors.i"
 	@echo "... functors.s"
