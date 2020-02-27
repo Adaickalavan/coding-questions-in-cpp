@@ -18,12 +18,12 @@ class Btree{
     ~Btree();
     void insert(T key);
     node<T>* search_dfs(T key);
-    void level_print();
+    void bfs_print();
   private:
     node<T>* root;
     void insert(T key, node<T>* leaf);
     node<T>* search_dfs(T key, node<T>* leaf);
-    void level_print(::std::queue<node<T>*> &q);
+    void bfs_print(::std::queue<node<T>*> &q);
     void destroy(node<T>* leaf);
 };
 
@@ -97,18 +97,18 @@ node<T>* Btree<T>::search_dfs(T key, node<T>* leaf){
 }
 
 template<class T>
-void Btree<T>::level_print(){
+void Btree<T>::bfs_print(){
   if (root != NULL){
     ::std::queue<node<T>*> q;
     q.push(root);
-    level_print(q);
+    bfs_print(q);
   } else {
     cout << "-" << endl;
   }
 }
 
 template<class T>
-void Btree<T>::level_print(::std::queue<node<T>*> &q){
+void Btree<T>::bfs_print(::std::queue<node<T>*> &q){
   if (q.empty()){
     return;
   }
@@ -125,7 +125,7 @@ void Btree<T>::level_print(::std::queue<node<T>*> &q){
     q.pop();
   }
   printf("\n");
-  level_print(q);
+  bfs_print(q);
 }
 
 int main(){
@@ -140,7 +140,7 @@ int main(){
   tree1->insert(8);
   tree1->insert(0);
 
-  tree1->level_print();
+  tree1->bfs_print();
 
   tree1->search_dfs(8); 
   delete tree1;
@@ -154,7 +154,7 @@ int main(){
   tree2->insert('e');
   tree2->insert('r');
 
-  tree2->level_print();
+  tree2->bfs_print();
 
   delete tree2;
 }

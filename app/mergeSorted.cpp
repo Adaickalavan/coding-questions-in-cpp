@@ -1,27 +1,27 @@
 #include <iostream>
-#include <array>
+#include <vector>
 
 using std::cout;
 using std::endl;
-using std::array;
+using std::vector;
 
 
-void sort(int* arr1Cur, int* arr1End, 
-    int* arr2Cur, int* arr2End, 
-    int* outputCur){
+void sort(vector<int>::iterator arr1Cur, vector<int>::iterator arr1End, 
+    vector<int>::iterator arr2Cur, vector<int>::iterator arr2End, 
+    vector<int>::iterator outputCur){
 
     if(arr1Cur == arr1End && arr2Cur == arr2End){
         return;
     }
     if(arr1Cur == arr1End && arr2Cur != arr2End){
-        for(int* ii = arr2Cur; ii != arr2End; ii++){
+        for(vector<int>::iterator ii = arr2Cur; ii != arr2End; ii++){
             *outputCur = *ii;
             outputCur += 1;
         }
         return;
     }
     if(arr1Cur != arr1End && arr2Cur == arr2End){
-        for(int* ii = arr1Cur; ii != arr1End; ii++){
+        for(vector<int>::iterator ii = arr1Cur; ii != arr1End; ii++){
             *outputCur = *ii;
             outputCur += 1;
         }
@@ -43,20 +43,22 @@ void sort(int* arr1Cur, int* arr1End,
         outputCur);
 }
 
-void printer(int* start, int* end){
-    for(int* ii = start; ii != end ; ++ii){
+void printer(vector<int>::iterator start, vector<int>::iterator end){
+    for(vector<int>::iterator ii = start; ii != end ; ++ii){
         cout << *ii << " ";
     }
     cout << endl;
 }
 
 int main(){
-    array<int,5> arr1 = {1,3,6,8,9};
-    // array<int,0> arr1 = {};
-    array<int,4> arr2 = {1,2,4,5};
-    array<int,9> output;
+    vector<int> arr1 = {1,3,6,8,9};
+    // vector<int> arr1 = {};
+    vector<int> arr2 = {1,2,4,5};
+    vector<int> output;
     sort(arr1.begin(), arr1.end(),
         arr2.begin(), arr2.end(),
         output.begin());
+    printer(arr1.begin(),arr1.end());
+    printer(arr2.begin(),arr2.end());
     printer(output.begin(),output.end());
 }

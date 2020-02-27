@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/minHeap.dir/minHeap.cpp.o  -o minHeap 
