@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-qu
 # Directory level rules for directory app
 
 # Convenience name for "all" pass in the directory.
+app/all: app/CMakeFiles/reverseBits.dir/all
 app/all: app/CMakeFiles/linkedlist.dir/all
 app/all: app/CMakeFiles/sumofbits.dir/all
 app/all: app/CMakeFiles/minheap.dir/all
@@ -83,6 +84,7 @@ app/all: app/CMakeFiles/findMissingNumber.dir/all
 .PHONY : app/all
 
 # Convenience name for "clean" pass in the directory.
+app/clean: app/CMakeFiles/reverseBits.dir/clean
 app/clean: app/CMakeFiles/linkedlist.dir/clean
 app/clean: app/CMakeFiles/sumofbits.dir/clean
 app/clean: app/CMakeFiles/minheap.dir/clean
@@ -106,6 +108,43 @@ app/clean: app/CMakeFiles/findMissingNumber.dir/clean
 app/preinstall:
 
 .PHONY : app/preinstall
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/reverseBits.dir
+
+# All Build rule for target.
+app/CMakeFiles/reverseBits.dir/all:
+	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/depend
+	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=29,30 "Built target reverseBits"
+.PHONY : app/CMakeFiles/reverseBits.dir/all
+
+# Include target in all.
+all: app/CMakeFiles/reverseBits.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+app/CMakeFiles/reverseBits.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseBits.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+.PHONY : app/CMakeFiles/reverseBits.dir/rule
+
+# Convenience name for target.
+reverseBits: app/CMakeFiles/reverseBits.dir/rule
+
+.PHONY : reverseBits
+
+# clean rule for target.
+app/CMakeFiles/reverseBits.dir/clean:
+	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/clean
+.PHONY : app/CMakeFiles/reverseBits.dir/clean
+
+# clean rule for target.
+clean: app/CMakeFiles/reverseBits.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target app/CMakeFiles/linkedlist.dir
@@ -151,7 +190,7 @@ clean: app/CMakeFiles/linkedlist.dir/clean
 app/CMakeFiles/sumofbits.dir/all:
 	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/depend
 	$(MAKE) -f app/CMakeFiles/sumofbits.dir/build.make app/CMakeFiles/sumofbits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=31,32 "Built target sumofbits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=33,34 "Built target sumofbits"
 .PHONY : app/CMakeFiles/sumofbits.dir/all
 
 # Include target in all.
@@ -632,7 +671,7 @@ clean: app/CMakeFiles/memmove.dir/clean
 app/CMakeFiles/reversearray.dir/all:
 	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/depend
 	$(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=29,30 "Built target reversearray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=31,32 "Built target reversearray"
 .PHONY : app/CMakeFiles/reversearray.dir/all
 
 # Include target in all.

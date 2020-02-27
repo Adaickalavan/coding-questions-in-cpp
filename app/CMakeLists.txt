@@ -29,4 +29,6 @@ add_executable(kthLargest
 add_executable(mutatablePriorityQueue
     ./mutatablePriorityQueue.cpp)   
 add_executable(findMissingNumber
-    ./findMissingNumber.cpp)             
+    ./findMissingNumber.cpp)  
+add_executable(reverseBits
+    ./reverseBits.cpp)             

@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+app/CMakeFiles/reverseBits.dir/rule:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseBits.dir/rule
+.PHONY : app/CMakeFiles/reverseBits.dir/rule
+
+# Convenience name for target.
+reverseBits: app/CMakeFiles/reverseBits.dir/rule
+
+.PHONY : reverseBits
+
+# fast build rule for target.
+reverseBits/fast:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
+.PHONY : reverseBits/fast
+
+# Convenience name for target.
 app/CMakeFiles/linkedlist.dir/rule:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/linkedlist.dir/rule
 .PHONY : app/CMakeFiles/linkedlist.dir/rule
@@ -755,6 +770,33 @@ reverseArray.cpp.s:
 	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reversearray.dir/build.make app/CMakeFiles/reversearray.dir/reverseArray.cpp.s
 .PHONY : reverseArray.cpp.s
 
+reverseBits.o: reverseBits.cpp.o
+
+.PHONY : reverseBits.o
+
+# target to build an object file
+reverseBits.cpp.o:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.o
+.PHONY : reverseBits.cpp.o
+
+reverseBits.i: reverseBits.cpp.i
+
+.PHONY : reverseBits.i
+
+# target to preprocess a source file
+reverseBits.cpp.i:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.i
+.PHONY : reverseBits.cpp.i
+
+reverseBits.s: reverseBits.cpp.s
+
+.PHONY : reverseBits.s
+
+# target to generate assembly for a file
+reverseBits.cpp.s:
+	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.s
+.PHONY : reverseBits.cpp.s
+
 sumOfBits.o: sumOfBits.cpp.o
 
 .PHONY : sumOfBits.o
@@ -789,6 +831,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... reverseBits"
 	@echo "... linkedlist"
 	@echo "... edit_cache"
 	@echo "... sumofbits"
@@ -851,6 +894,9 @@ help:
 	@echo "... reverseArray.o"
 	@echo "... reverseArray.i"
 	@echo "... reverseArray.s"
+	@echo "... reverseBits.o"
+	@echo "... reverseBits.i"
+	@echo "... reverseBits.s"
 	@echo "... sumOfBits.o"
 	@echo "... sumOfBits.i"
 	@echo "... sumOfBits.s"

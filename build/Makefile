@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named reverseBits
+
+# Build rule for target.
+reverseBits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverseBits
+.PHONY : reverseBits
+
+# fast build rule for target.
+reverseBits/fast:
+	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
+.PHONY : reverseBits/fast
+
+#=============================================================================
 # Target rules for targets named linkedlist
 
 # Build rule for target.
@@ -326,6 +339,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... reverseBits"
 	@echo "... linkedlist"
 	@echo "... sumofbits"
 	@echo "... minheap"

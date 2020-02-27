@@ -12,7 +12,7 @@ class SumOfBits{
         unsigned int count(unsigned int input);
     private:
         map<unsigned int,unsigned int> table{{0,0},{1,1},{2,1},{3,2},
-                           {4,1},{5,2},{6,2},{7,3}};
+                                            {4,1},{5,2},{6,2},{7,3}};
 };
 
 SumOfBits::SumOfBits(){
