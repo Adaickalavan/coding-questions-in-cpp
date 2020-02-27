@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/findMissingNumber.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/findMissingNumber.dir/flags.make
 
 app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o: app/CMakeFiles/findMissingNumber.dir/flags.make
 app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o: ../app/findMissingNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o -c /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o"
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o -c /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp
 
 app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp > CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp > CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i
 
 app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp -o CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/findMissingNumber.cpp -o CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s
 
 app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o.requires:
 
@@ -91,8 +91,8 @@ findMissingNumber_EXTERNAL_OBJECTS =
 app/findMissingNumber: app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o
 app/findMissingNumber: app/CMakeFiles/findMissingNumber.dir/build.make
 app/findMissingNumber: app/CMakeFiles/findMissingNumber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable findMissingNumber"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/findMissingNumber.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable findMissingNumber"
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/findMissingNumber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/findMissingNumber.dir/build: app/findMissingNumber
@@ -104,10 +104,10 @@ app/CMakeFiles/findMissingNumber.dir/requires: app/CMakeFiles/findMissingNumber.
 .PHONY : app/CMakeFiles/findMissingNumber.dir/requires
 
 app/CMakeFiles/findMissingNumber.dir/clean:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/findMissingNumber.dir/cmake_clean.cmake
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/findMissingNumber.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/findMissingNumber.dir/clean
 
 app/CMakeFiles/findMissingNumber.dir/depend:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/findMissingNumber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/findMissingNumber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/findMissingNumber.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/mutatablePriorityQueue.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/mutatablePriorityQueue.dir/flags.make
 
 app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o: app/CMakeFiles/mutatablePriorityQueue.dir/flags.make
 app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o: ../app/mutatablePriorityQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o -c /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o"
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o -c /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp
 
 app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp > CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp > CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i
 
 app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp -o CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/mutatablePriorityQueue.cpp -o CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s
 
 app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o.requires:
 
@@ -91,8 +91,8 @@ mutatablePriorityQueue_EXTERNAL_OBJECTS =
 app/mutatablePriorityQueue: app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o
 app/mutatablePriorityQueue: app/CMakeFiles/mutatablePriorityQueue.dir/build.make
 app/mutatablePriorityQueue: app/CMakeFiles/mutatablePriorityQueue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mutatablePriorityQueue"
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mutatablePriorityQueue.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mutatablePriorityQueue"
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mutatablePriorityQueue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/mutatablePriorityQueue.dir/build: app/mutatablePriorityQueue
@@ -104,10 +104,10 @@ app/CMakeFiles/mutatablePriorityQueue.dir/requires: app/CMakeFiles/mutatablePrio
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/requires
 
 app/CMakeFiles/mutatablePriorityQueue.dir/clean:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/mutatablePriorityQueue.dir/cmake_clean.cmake
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/mutatablePriorityQueue.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/clean
 
 app/CMakeFiles/mutatablePriorityQueue.dir/depend:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/mutatablePriorityQueue.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/mutatablePriorityQueue.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/depend
 

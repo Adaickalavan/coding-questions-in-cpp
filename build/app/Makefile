@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/progress.marks
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/progress.marks
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/reverseBits.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseBits.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseBits.dir/rule
 .PHONY : app/CMakeFiles/reverseBits.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ reverseBits: app/CMakeFiles/reverseBits.dir/rule
 
 # fast build rule for target.
 reverseBits/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
 .PHONY : reverseBits/fast
 
 # Convenience name for target.
 app/CMakeFiles/kthLargest.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/kthLargest.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/kthLargest.dir/rule
 .PHONY : app/CMakeFiles/kthLargest.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ kthLargest: app/CMakeFiles/kthLargest.dir/rule
 
 # fast build rule for target.
 kthLargest/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
 .PHONY : kthLargest/fast
 
 # Convenience name for target.
 app/CMakeFiles/sumOfBits.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumOfBits.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumOfBits.dir/rule
 .PHONY : app/CMakeFiles/sumOfBits.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ sumOfBits: app/CMakeFiles/sumOfBits.dir/rule
 
 # fast build rule for target.
 sumOfBits/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/build
 .PHONY : sumOfBits/fast
 
 # Convenience name for target.
 app/CMakeFiles/binaryTree.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binaryTree.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binaryTree.dir/rule
 .PHONY : app/CMakeFiles/binaryTree.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ binaryTree: app/CMakeFiles/binaryTree.dir/rule
 
 # fast build rule for target.
 binaryTree/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/build
 .PHONY : binaryTree/fast
 
 # Convenience name for target.
 app/CMakeFiles/functors.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/functors.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/functors.dir/rule
 .PHONY : app/CMakeFiles/functors.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ functors: app/CMakeFiles/functors.dir/rule
 
 # fast build rule for target.
 functors/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/build
 .PHONY : functors/fast
 
 # Convenience name for target.
 app/CMakeFiles/linkedList.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/linkedList.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/linkedList.dir/rule
 .PHONY : app/CMakeFiles/linkedList.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ linkedList: app/CMakeFiles/linkedList.dir/rule
 
 # fast build rule for target.
 linkedList/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/build
 .PHONY : linkedList/fast
 
 # Convenience name for target.
 app/CMakeFiles/minHeap.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/minHeap.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/minHeap.dir/rule
 .PHONY : app/CMakeFiles/minHeap.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ minHeap: app/CMakeFiles/minHeap.dir/rule
 
 # fast build rule for target.
 minHeap/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/build
 .PHONY : minHeap/fast
 
 # Convenience name for target.
 app/CMakeFiles/longestSequence.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestSequence.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestSequence.dir/rule
 .PHONY : app/CMakeFiles/longestSequence.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ longestSequence: app/CMakeFiles/longestSequence.dir/rule
 
 # fast build rule for target.
 longestSequence/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/build
 .PHONY : longestSequence/fast
 
 # Convenience name for target.
 app/CMakeFiles/patternSearch.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/patternSearch.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/patternSearch.dir/rule
 .PHONY : app/CMakeFiles/patternSearch.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ patternSearch: app/CMakeFiles/patternSearch.dir/rule
 
 # fast build rule for target.
 patternSearch/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/build
 .PHONY : patternSearch/fast
 
 # Convenience name for target.
 app/CMakeFiles/longestContinuousSequence.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestContinuousSequence.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestContinuousSequence.dir/rule
 .PHONY : app/CMakeFiles/longestContinuousSequence.dir/rule
 
 # Convenience name for target.
@@ -257,12 +257,12 @@ longestContinuousSequence: app/CMakeFiles/longestContinuousSequence.dir/rule
 
 # fast build rule for target.
 longestContinuousSequence/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/build
 .PHONY : longestContinuousSequence/fast
 
 # Convenience name for target.
 app/CMakeFiles/balancedBrackets.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedBrackets.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedBrackets.dir/rule
 .PHONY : app/CMakeFiles/balancedBrackets.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ balancedBrackets: app/CMakeFiles/balancedBrackets.dir/rule
 
 # fast build rule for target.
 balancedBrackets/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/build
 .PHONY : balancedBrackets/fast
 
 # Convenience name for target.
 app/CMakeFiles/reverseArray.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseArray.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseArray.dir/rule
 .PHONY : app/CMakeFiles/reverseArray.dir/rule
 
 # Convenience name for target.
@@ -287,12 +287,12 @@ reverseArray: app/CMakeFiles/reverseArray.dir/rule
 
 # fast build rule for target.
 reverseArray/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/build
 .PHONY : reverseArray/fast
 
 # Convenience name for target.
 app/CMakeFiles/memMove.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memMove.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memMove.dir/rule
 .PHONY : app/CMakeFiles/memMove.dir/rule
 
 # Convenience name for target.
@@ -302,12 +302,12 @@ memMove: app/CMakeFiles/memMove.dir/rule
 
 # fast build rule for target.
 memMove/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/build
 .PHONY : memMove/fast
 
 # Convenience name for target.
 app/CMakeFiles/mergeSorted.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mergeSorted.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mergeSorted.dir/rule
 .PHONY : app/CMakeFiles/mergeSorted.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ mergeSorted: app/CMakeFiles/mergeSorted.dir/rule
 
 # fast build rule for target.
 mergeSorted/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/build
 .PHONY : mergeSorted/fast
 
 # Convenience name for target.
 app/CMakeFiles/longestValidBrackets.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestValidBrackets.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestValidBrackets.dir/rule
 .PHONY : app/CMakeFiles/longestValidBrackets.dir/rule
 
 # Convenience name for target.
@@ -332,12 +332,12 @@ longestValidBrackets: app/CMakeFiles/longestValidBrackets.dir/rule
 
 # fast build rule for target.
 longestValidBrackets/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/build
 .PHONY : longestValidBrackets/fast
 
 # Convenience name for target.
 app/CMakeFiles/mutatablePriorityQueue.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mutatablePriorityQueue.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mutatablePriorityQueue.dir/rule
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/rule
 
 # Convenience name for target.
@@ -347,12 +347,12 @@ mutatablePriorityQueue: app/CMakeFiles/mutatablePriorityQueue.dir/rule
 
 # fast build rule for target.
 mutatablePriorityQueue/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/build
 .PHONY : mutatablePriorityQueue/fast
 
 # Convenience name for target.
 app/CMakeFiles/findMissingNumber.dir/rule:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/findMissingNumber.dir/rule
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/findMissingNumber.dir/rule
 .PHONY : app/CMakeFiles/findMissingNumber.dir/rule
 
 # Convenience name for target.
@@ -362,7 +362,7 @@ findMissingNumber: app/CMakeFiles/findMissingNumber.dir/rule
 
 # fast build rule for target.
 findMissingNumber/fast:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/build
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/build
 .PHONY : findMissingNumber/fast
 
 balancedBrackets.o: balancedBrackets.cpp.o
@@ -371,7 +371,7 @@ balancedBrackets.o: balancedBrackets.cpp.o
 
 # target to build an object file
 balancedBrackets.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.o
 .PHONY : balancedBrackets.cpp.o
 
 balancedBrackets.i: balancedBrackets.cpp.i
@@ -380,7 +380,7 @@ balancedBrackets.i: balancedBrackets.cpp.i
 
 # target to preprocess a source file
 balancedBrackets.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.i
 .PHONY : balancedBrackets.cpp.i
 
 balancedBrackets.s: balancedBrackets.cpp.s
@@ -389,7 +389,7 @@ balancedBrackets.s: balancedBrackets.cpp.s
 
 # target to generate assembly for a file
 balancedBrackets.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.s
 .PHONY : balancedBrackets.cpp.s
 
 binaryTree.o: binaryTree.cpp.o
@@ -398,7 +398,7 @@ binaryTree.o: binaryTree.cpp.o
 
 # target to build an object file
 binaryTree.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.o
 .PHONY : binaryTree.cpp.o
 
 binaryTree.i: binaryTree.cpp.i
@@ -407,7 +407,7 @@ binaryTree.i: binaryTree.cpp.i
 
 # target to preprocess a source file
 binaryTree.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.i
 .PHONY : binaryTree.cpp.i
 
 binaryTree.s: binaryTree.cpp.s
@@ -416,7 +416,7 @@ binaryTree.s: binaryTree.cpp.s
 
 # target to generate assembly for a file
 binaryTree.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/binaryTree.cpp.s
 .PHONY : binaryTree.cpp.s
 
 findMissingNumber.o: findMissingNumber.cpp.o
@@ -425,7 +425,7 @@ findMissingNumber.o: findMissingNumber.cpp.o
 
 # target to build an object file
 findMissingNumber.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.o
 .PHONY : findMissingNumber.cpp.o
 
 findMissingNumber.i: findMissingNumber.cpp.i
@@ -434,7 +434,7 @@ findMissingNumber.i: findMissingNumber.cpp.i
 
 # target to preprocess a source file
 findMissingNumber.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.i
 .PHONY : findMissingNumber.cpp.i
 
 findMissingNumber.s: findMissingNumber.cpp.s
@@ -443,7 +443,7 @@ findMissingNumber.s: findMissingNumber.cpp.s
 
 # target to generate assembly for a file
 findMissingNumber.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/findMissingNumber.cpp.s
 .PHONY : findMissingNumber.cpp.s
 
 functors.o: functors.cpp.o
@@ -452,7 +452,7 @@ functors.o: functors.cpp.o
 
 # target to build an object file
 functors.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.o
 .PHONY : functors.cpp.o
 
 functors.i: functors.cpp.i
@@ -461,7 +461,7 @@ functors.i: functors.cpp.i
 
 # target to preprocess a source file
 functors.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.i
 .PHONY : functors.cpp.i
 
 functors.s: functors.cpp.s
@@ -470,7 +470,7 @@ functors.s: functors.cpp.s
 
 # target to generate assembly for a file
 functors.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/functors.cpp.s
 .PHONY : functors.cpp.s
 
 kthLargest.o: kthLargest.cpp.o
@@ -479,7 +479,7 @@ kthLargest.o: kthLargest.cpp.o
 
 # target to build an object file
 kthLargest.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.o
 .PHONY : kthLargest.cpp.o
 
 kthLargest.i: kthLargest.cpp.i
@@ -488,7 +488,7 @@ kthLargest.i: kthLargest.cpp.i
 
 # target to preprocess a source file
 kthLargest.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.i
 .PHONY : kthLargest.cpp.i
 
 kthLargest.s: kthLargest.cpp.s
@@ -497,7 +497,7 @@ kthLargest.s: kthLargest.cpp.s
 
 # target to generate assembly for a file
 kthLargest.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/kthLargest.cpp.s
 .PHONY : kthLargest.cpp.s
 
 linkedList.o: linkedList.cpp.o
@@ -506,7 +506,7 @@ linkedList.o: linkedList.cpp.o
 
 # target to build an object file
 linkedList.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.o
 .PHONY : linkedList.cpp.o
 
 linkedList.i: linkedList.cpp.i
@@ -515,7 +515,7 @@ linkedList.i: linkedList.cpp.i
 
 # target to preprocess a source file
 linkedList.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.i
 .PHONY : linkedList.cpp.i
 
 linkedList.s: linkedList.cpp.s
@@ -524,7 +524,7 @@ linkedList.s: linkedList.cpp.s
 
 # target to generate assembly for a file
 linkedList.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/linkedList.cpp.s
 .PHONY : linkedList.cpp.s
 
 longestContinuousSequence.o: longestContinuousSequence.cpp.o
@@ -533,7 +533,7 @@ longestContinuousSequence.o: longestContinuousSequence.cpp.o
 
 # target to build an object file
 longestContinuousSequence.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.o
 .PHONY : longestContinuousSequence.cpp.o
 
 longestContinuousSequence.i: longestContinuousSequence.cpp.i
@@ -542,7 +542,7 @@ longestContinuousSequence.i: longestContinuousSequence.cpp.i
 
 # target to preprocess a source file
 longestContinuousSequence.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.i
 .PHONY : longestContinuousSequence.cpp.i
 
 longestContinuousSequence.s: longestContinuousSequence.cpp.s
@@ -551,7 +551,7 @@ longestContinuousSequence.s: longestContinuousSequence.cpp.s
 
 # target to generate assembly for a file
 longestContinuousSequence.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/longestContinuousSequence.cpp.s
 .PHONY : longestContinuousSequence.cpp.s
 
 longestSequence.o: longestSequence.cpp.o
@@ -560,7 +560,7 @@ longestSequence.o: longestSequence.cpp.o
 
 # target to build an object file
 longestSequence.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.o
 .PHONY : longestSequence.cpp.o
 
 longestSequence.i: longestSequence.cpp.i
@@ -569,7 +569,7 @@ longestSequence.i: longestSequence.cpp.i
 
 # target to preprocess a source file
 longestSequence.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.i
 .PHONY : longestSequence.cpp.i
 
 longestSequence.s: longestSequence.cpp.s
@@ -578,7 +578,7 @@ longestSequence.s: longestSequence.cpp.s
 
 # target to generate assembly for a file
 longestSequence.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/longestSequence.cpp.s
 .PHONY : longestSequence.cpp.s
 
 longestValidBrackets.o: longestValidBrackets.cpp.o
@@ -587,7 +587,7 @@ longestValidBrackets.o: longestValidBrackets.cpp.o
 
 # target to build an object file
 longestValidBrackets.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.o
 .PHONY : longestValidBrackets.cpp.o
 
 longestValidBrackets.i: longestValidBrackets.cpp.i
@@ -596,7 +596,7 @@ longestValidBrackets.i: longestValidBrackets.cpp.i
 
 # target to preprocess a source file
 longestValidBrackets.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.i
 .PHONY : longestValidBrackets.cpp.i
 
 longestValidBrackets.s: longestValidBrackets.cpp.s
@@ -605,7 +605,7 @@ longestValidBrackets.s: longestValidBrackets.cpp.s
 
 # target to generate assembly for a file
 longestValidBrackets.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/longestValidBrackets.cpp.s
 .PHONY : longestValidBrackets.cpp.s
 
 memMove.o: memMove.cpp.o
@@ -614,7 +614,7 @@ memMove.o: memMove.cpp.o
 
 # target to build an object file
 memMove.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.o
 .PHONY : memMove.cpp.o
 
 memMove.i: memMove.cpp.i
@@ -623,7 +623,7 @@ memMove.i: memMove.cpp.i
 
 # target to preprocess a source file
 memMove.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.i
 .PHONY : memMove.cpp.i
 
 memMove.s: memMove.cpp.s
@@ -632,7 +632,7 @@ memMove.s: memMove.cpp.s
 
 # target to generate assembly for a file
 memMove.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/memMove.cpp.s
 .PHONY : memMove.cpp.s
 
 mergeSorted.o: mergeSorted.cpp.o
@@ -641,7 +641,7 @@ mergeSorted.o: mergeSorted.cpp.o
 
 # target to build an object file
 mergeSorted.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.o
 .PHONY : mergeSorted.cpp.o
 
 mergeSorted.i: mergeSorted.cpp.i
@@ -650,7 +650,7 @@ mergeSorted.i: mergeSorted.cpp.i
 
 # target to preprocess a source file
 mergeSorted.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.i
 .PHONY : mergeSorted.cpp.i
 
 mergeSorted.s: mergeSorted.cpp.s
@@ -659,7 +659,7 @@ mergeSorted.s: mergeSorted.cpp.s
 
 # target to generate assembly for a file
 mergeSorted.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/mergeSorted.cpp.s
 .PHONY : mergeSorted.cpp.s
 
 minHeap.o: minHeap.cpp.o
@@ -668,7 +668,7 @@ minHeap.o: minHeap.cpp.o
 
 # target to build an object file
 minHeap.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.o
 .PHONY : minHeap.cpp.o
 
 minHeap.i: minHeap.cpp.i
@@ -677,7 +677,7 @@ minHeap.i: minHeap.cpp.i
 
 # target to preprocess a source file
 minHeap.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.i
 .PHONY : minHeap.cpp.i
 
 minHeap.s: minHeap.cpp.s
@@ -686,7 +686,7 @@ minHeap.s: minHeap.cpp.s
 
 # target to generate assembly for a file
 minHeap.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/minHeap.cpp.s
 .PHONY : minHeap.cpp.s
 
 mutatablePriorityQueue.o: mutatablePriorityQueue.cpp.o
@@ -695,7 +695,7 @@ mutatablePriorityQueue.o: mutatablePriorityQueue.cpp.o
 
 # target to build an object file
 mutatablePriorityQueue.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.o
 .PHONY : mutatablePriorityQueue.cpp.o
 
 mutatablePriorityQueue.i: mutatablePriorityQueue.cpp.i
@@ -704,7 +704,7 @@ mutatablePriorityQueue.i: mutatablePriorityQueue.cpp.i
 
 # target to preprocess a source file
 mutatablePriorityQueue.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.i
 .PHONY : mutatablePriorityQueue.cpp.i
 
 mutatablePriorityQueue.s: mutatablePriorityQueue.cpp.s
@@ -713,7 +713,7 @@ mutatablePriorityQueue.s: mutatablePriorityQueue.cpp.s
 
 # target to generate assembly for a file
 mutatablePriorityQueue.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/mutatablePriorityQueue.cpp.s
 .PHONY : mutatablePriorityQueue.cpp.s
 
 patternSearch.o: patternSearch.cpp.o
@@ -722,7 +722,7 @@ patternSearch.o: patternSearch.cpp.o
 
 # target to build an object file
 patternSearch.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.o
 .PHONY : patternSearch.cpp.o
 
 patternSearch.i: patternSearch.cpp.i
@@ -731,7 +731,7 @@ patternSearch.i: patternSearch.cpp.i
 
 # target to preprocess a source file
 patternSearch.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.i
 .PHONY : patternSearch.cpp.i
 
 patternSearch.s: patternSearch.cpp.s
@@ -740,7 +740,7 @@ patternSearch.s: patternSearch.cpp.s
 
 # target to generate assembly for a file
 patternSearch.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/patternSearch.cpp.s
 .PHONY : patternSearch.cpp.s
 
 reverseArray.o: reverseArray.cpp.o
@@ -749,7 +749,7 @@ reverseArray.o: reverseArray.cpp.o
 
 # target to build an object file
 reverseArray.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.o
 .PHONY : reverseArray.cpp.o
 
 reverseArray.i: reverseArray.cpp.i
@@ -758,7 +758,7 @@ reverseArray.i: reverseArray.cpp.i
 
 # target to preprocess a source file
 reverseArray.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.i
 .PHONY : reverseArray.cpp.i
 
 reverseArray.s: reverseArray.cpp.s
@@ -767,7 +767,7 @@ reverseArray.s: reverseArray.cpp.s
 
 # target to generate assembly for a file
 reverseArray.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/reverseArray.cpp.s
 .PHONY : reverseArray.cpp.s
 
 reverseBits.o: reverseBits.cpp.o
@@ -776,7 +776,7 @@ reverseBits.o: reverseBits.cpp.o
 
 # target to build an object file
 reverseBits.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.o
 .PHONY : reverseBits.cpp.o
 
 reverseBits.i: reverseBits.cpp.i
@@ -785,7 +785,7 @@ reverseBits.i: reverseBits.cpp.i
 
 # target to preprocess a source file
 reverseBits.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.i
 .PHONY : reverseBits.cpp.i
 
 reverseBits.s: reverseBits.cpp.s
@@ -794,7 +794,7 @@ reverseBits.s: reverseBits.cpp.s
 
 # target to generate assembly for a file
 reverseBits.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/reverseBits.cpp.s
 .PHONY : reverseBits.cpp.s
 
 sumOfBits.o: sumOfBits.cpp.o
@@ -803,7 +803,7 @@ sumOfBits.o: sumOfBits.cpp.o
 
 # target to build an object file
 sumOfBits.cpp.o:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.o
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.o
 .PHONY : sumOfBits.cpp.o
 
 sumOfBits.i: sumOfBits.cpp.i
@@ -812,7 +812,7 @@ sumOfBits.i: sumOfBits.cpp.i
 
 # target to preprocess a source file
 sumOfBits.cpp.i:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.i
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.i
 .PHONY : sumOfBits.cpp.i
 
 sumOfBits.s: sumOfBits.cpp.s
@@ -821,7 +821,7 @@ sumOfBits.s: sumOfBits.cpp.s
 
 # target to generate assembly for a file
 sumOfBits.cpp.s:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.s
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/sumOfBits.cpp.s
 .PHONY : sumOfBits.cpp.s
 
 # Help Target
@@ -911,6 +911,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

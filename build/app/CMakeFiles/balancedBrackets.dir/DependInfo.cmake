@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp" "/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.o"
+  "/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/app/balancedBrackets.cpp" "/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/app/CMakeFiles/balancedBrackets.dir/balancedBrackets.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp
+CMAKE_SOURCE_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build
+CMAKE_BINARY_DIR = /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build
 
 #=============================================================================
 # Directory level rules for directory app
@@ -116,7 +116,7 @@ app/preinstall:
 app/CMakeFiles/reverseBits.dir/all:
 	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/depend
 	$(MAKE) -f app/CMakeFiles/reverseBits.dir/build.make app/CMakeFiles/reverseBits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=31,32 "Built target reverseBits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=31,32 "Built target reverseBits"
 .PHONY : app/CMakeFiles/reverseBits.dir/all
 
 # Include target in all.
@@ -126,9 +126,9 @@ all: app/CMakeFiles/reverseBits.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/reverseBits.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseBits.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/reverseBits.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ clean: app/CMakeFiles/reverseBits.dir/clean
 app/CMakeFiles/kthLargest.dir/all:
 	$(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/depend
 	$(MAKE) -f app/CMakeFiles/kthLargest.dir/build.make app/CMakeFiles/kthLargest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=9,10 "Built target kthLargest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=9,10 "Built target kthLargest"
 .PHONY : app/CMakeFiles/kthLargest.dir/all
 
 # Include target in all.
@@ -163,9 +163,9 @@ all: app/CMakeFiles/kthLargest.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/kthLargest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/kthLargest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/kthLargest.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ clean: app/CMakeFiles/kthLargest.dir/clean
 app/CMakeFiles/sumOfBits.dir/all:
 	$(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/depend
 	$(MAKE) -f app/CMakeFiles/sumOfBits.dir/build.make app/CMakeFiles/sumOfBits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=33,34 "Built target sumOfBits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=33,34 "Built target sumOfBits"
 .PHONY : app/CMakeFiles/sumOfBits.dir/all
 
 # Include target in all.
@@ -200,9 +200,9 @@ all: app/CMakeFiles/sumOfBits.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/sumOfBits.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/sumOfBits.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/sumOfBits.dir/rule
 
 # Convenience name for target.
@@ -227,7 +227,7 @@ clean: app/CMakeFiles/sumOfBits.dir/clean
 app/CMakeFiles/binaryTree.dir/all:
 	$(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/depend
 	$(MAKE) -f app/CMakeFiles/binaryTree.dir/build.make app/CMakeFiles/binaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=3,4 "Built target binaryTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=3,4 "Built target binaryTree"
 .PHONY : app/CMakeFiles/binaryTree.dir/all
 
 # Include target in all.
@@ -237,9 +237,9 @@ all: app/CMakeFiles/binaryTree.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/binaryTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/binaryTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/binaryTree.dir/rule
 
 # Convenience name for target.
@@ -264,7 +264,7 @@ clean: app/CMakeFiles/binaryTree.dir/clean
 app/CMakeFiles/functors.dir/all:
 	$(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/depend
 	$(MAKE) -f app/CMakeFiles/functors.dir/build.make app/CMakeFiles/functors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=7,8 "Built target functors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=7,8 "Built target functors"
 .PHONY : app/CMakeFiles/functors.dir/all
 
 # Include target in all.
@@ -274,9 +274,9 @@ all: app/CMakeFiles/functors.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/functors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/functors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/functors.dir/rule
 
 # Convenience name for target.
@@ -301,7 +301,7 @@ clean: app/CMakeFiles/functors.dir/clean
 app/CMakeFiles/linkedList.dir/all:
 	$(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/depend
 	$(MAKE) -f app/CMakeFiles/linkedList.dir/build.make app/CMakeFiles/linkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=11,12 "Built target linkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=11,12 "Built target linkedList"
 .PHONY : app/CMakeFiles/linkedList.dir/all
 
 # Include target in all.
@@ -311,9 +311,9 @@ all: app/CMakeFiles/linkedList.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/linkedList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/linkedList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/linkedList.dir/rule
 
 # Convenience name for target.
@@ -338,7 +338,7 @@ clean: app/CMakeFiles/linkedList.dir/clean
 app/CMakeFiles/minHeap.dir/all:
 	$(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/depend
 	$(MAKE) -f app/CMakeFiles/minHeap.dir/build.make app/CMakeFiles/minHeap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=23,24 "Built target minHeap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=23,24 "Built target minHeap"
 .PHONY : app/CMakeFiles/minHeap.dir/all
 
 # Include target in all.
@@ -348,9 +348,9 @@ all: app/CMakeFiles/minHeap.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/minHeap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/minHeap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/minHeap.dir/rule
 
 # Convenience name for target.
@@ -375,7 +375,7 @@ clean: app/CMakeFiles/minHeap.dir/clean
 app/CMakeFiles/longestSequence.dir/all:
 	$(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/depend
 	$(MAKE) -f app/CMakeFiles/longestSequence.dir/build.make app/CMakeFiles/longestSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=15,16 "Built target longestSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=15,16 "Built target longestSequence"
 .PHONY : app/CMakeFiles/longestSequence.dir/all
 
 # Include target in all.
@@ -385,9 +385,9 @@ all: app/CMakeFiles/longestSequence.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/longestSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestSequence.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/longestSequence.dir/rule
 
 # Convenience name for target.
@@ -412,7 +412,7 @@ clean: app/CMakeFiles/longestSequence.dir/clean
 app/CMakeFiles/patternSearch.dir/all:
 	$(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/depend
 	$(MAKE) -f app/CMakeFiles/patternSearch.dir/build.make app/CMakeFiles/patternSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=27,28 "Built target patternSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=27,28 "Built target patternSearch"
 .PHONY : app/CMakeFiles/patternSearch.dir/all
 
 # Include target in all.
@@ -422,9 +422,9 @@ all: app/CMakeFiles/patternSearch.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/patternSearch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/patternSearch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/patternSearch.dir/rule
 
 # Convenience name for target.
@@ -449,7 +449,7 @@ clean: app/CMakeFiles/patternSearch.dir/clean
 app/CMakeFiles/longestContinuousSequence.dir/all:
 	$(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/depend
 	$(MAKE) -f app/CMakeFiles/longestContinuousSequence.dir/build.make app/CMakeFiles/longestContinuousSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=13,14 "Built target longestContinuousSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=13,14 "Built target longestContinuousSequence"
 .PHONY : app/CMakeFiles/longestContinuousSequence.dir/all
 
 # Include target in all.
@@ -459,9 +459,9 @@ all: app/CMakeFiles/longestContinuousSequence.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/longestContinuousSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestContinuousSequence.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/longestContinuousSequence.dir/rule
 
 # Convenience name for target.
@@ -486,7 +486,7 @@ clean: app/CMakeFiles/longestContinuousSequence.dir/clean
 app/CMakeFiles/balancedBrackets.dir/all:
 	$(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/depend
 	$(MAKE) -f app/CMakeFiles/balancedBrackets.dir/build.make app/CMakeFiles/balancedBrackets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=1,2 "Built target balancedBrackets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=1,2 "Built target balancedBrackets"
 .PHONY : app/CMakeFiles/balancedBrackets.dir/all
 
 # Include target in all.
@@ -496,9 +496,9 @@ all: app/CMakeFiles/balancedBrackets.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/balancedBrackets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/balancedBrackets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/balancedBrackets.dir/rule
 
 # Convenience name for target.
@@ -523,7 +523,7 @@ clean: app/CMakeFiles/balancedBrackets.dir/clean
 app/CMakeFiles/reverseArray.dir/all:
 	$(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/depend
 	$(MAKE) -f app/CMakeFiles/reverseArray.dir/build.make app/CMakeFiles/reverseArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=29,30 "Built target reverseArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=29,30 "Built target reverseArray"
 .PHONY : app/CMakeFiles/reverseArray.dir/all
 
 # Include target in all.
@@ -533,9 +533,9 @@ all: app/CMakeFiles/reverseArray.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/reverseArray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/reverseArray.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/reverseArray.dir/rule
 
 # Convenience name for target.
@@ -560,7 +560,7 @@ clean: app/CMakeFiles/reverseArray.dir/clean
 app/CMakeFiles/memMove.dir/all:
 	$(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/depend
 	$(MAKE) -f app/CMakeFiles/memMove.dir/build.make app/CMakeFiles/memMove.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=19,20 "Built target memMove"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=19,20 "Built target memMove"
 .PHONY : app/CMakeFiles/memMove.dir/all
 
 # Include target in all.
@@ -570,9 +570,9 @@ all: app/CMakeFiles/memMove.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/memMove.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/memMove.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/memMove.dir/rule
 
 # Convenience name for target.
@@ -597,7 +597,7 @@ clean: app/CMakeFiles/memMove.dir/clean
 app/CMakeFiles/mergeSorted.dir/all:
 	$(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/depend
 	$(MAKE) -f app/CMakeFiles/mergeSorted.dir/build.make app/CMakeFiles/mergeSorted.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=21,22 "Built target mergeSorted"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=21,22 "Built target mergeSorted"
 .PHONY : app/CMakeFiles/mergeSorted.dir/all
 
 # Include target in all.
@@ -607,9 +607,9 @@ all: app/CMakeFiles/mergeSorted.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/mergeSorted.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mergeSorted.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/mergeSorted.dir/rule
 
 # Convenience name for target.
@@ -634,7 +634,7 @@ clean: app/CMakeFiles/mergeSorted.dir/clean
 app/CMakeFiles/longestValidBrackets.dir/all:
 	$(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/depend
 	$(MAKE) -f app/CMakeFiles/longestValidBrackets.dir/build.make app/CMakeFiles/longestValidBrackets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=17,18 "Built target longestValidBrackets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=17,18 "Built target longestValidBrackets"
 .PHONY : app/CMakeFiles/longestValidBrackets.dir/all
 
 # Include target in all.
@@ -644,9 +644,9 @@ all: app/CMakeFiles/longestValidBrackets.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/longestValidBrackets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/longestValidBrackets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/longestValidBrackets.dir/rule
 
 # Convenience name for target.
@@ -671,7 +671,7 @@ clean: app/CMakeFiles/longestValidBrackets.dir/clean
 app/CMakeFiles/mutatablePriorityQueue.dir/all:
 	$(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/depend
 	$(MAKE) -f app/CMakeFiles/mutatablePriorityQueue.dir/build.make app/CMakeFiles/mutatablePriorityQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=25,26 "Built target mutatablePriorityQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=25,26 "Built target mutatablePriorityQueue"
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/all
 
 # Include target in all.
@@ -681,9 +681,9 @@ all: app/CMakeFiles/mutatablePriorityQueue.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/mutatablePriorityQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/mutatablePriorityQueue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/mutatablePriorityQueue.dir/rule
 
 # Convenience name for target.
@@ -708,7 +708,7 @@ clean: app/CMakeFiles/mutatablePriorityQueue.dir/clean
 app/CMakeFiles/findMissingNumber.dir/all:
 	$(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/depend
 	$(MAKE) -f app/CMakeFiles/findMissingNumber.dir/build.make app/CMakeFiles/findMissingNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=5,6 "Built target findMissingNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles --progress-num=5,6 "Built target findMissingNumber"
 .PHONY : app/CMakeFiles/findMissingNumber.dir/all
 
 # Include target in all.
@@ -718,9 +718,9 @@ all: app/CMakeFiles/findMissingNumber.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/findMissingNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/findMissingNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/work/src/github.com/adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adaickalavan/GoWorkspace/src/github.com/Adaickalavan/coding-questions-in-cpp/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/findMissingNumber.dir/rule
 
 # Convenience name for target.
