@@ -16,28 +16,28 @@ void sort(vector<int>::iterator arr1Cur, vector<int>::iterator arr1End,
     if(arr1Cur == arr1End && arr2Cur != arr2End){
         for(vector<int>::iterator ii = arr2Cur; ii != arr2End; ii++){
             *outputCur = *ii;
-            outputCur += 1;
+            outputCur ++;
         }
         return;
     }
     if(arr1Cur != arr1End && arr2Cur == arr2End){
         for(vector<int>::iterator ii = arr1Cur; ii != arr1End; ii++){
             *outputCur = *ii;
-            outputCur += 1;
+            outputCur ++;
         }
         return;
     }
     if(*arr1Cur < *arr2Cur){
         *outputCur = *arr1Cur;
-        outputCur += 1;
-        arr1Cur += 1;
+        outputCur ++;
+        arr1Cur ++;
         return sort(arr1Cur, arr1End, 
             arr2Cur, arr2End, 
             outputCur);
     }
     *outputCur = *arr2Cur;
-    outputCur += 1;
-    arr2Cur += 1;
+    outputCur ++;
+    arr2Cur ++;
     return sort(arr1Cur, arr1End, 
         arr2Cur, arr2End, 
         outputCur);
@@ -54,11 +54,9 @@ int main(){
     vector<int> arr1 = {1,3,6,8,9};
     // vector<int> arr1 = {};
     vector<int> arr2 = {1,2,4,5};
-    vector<int> output;
+    vector<int> output(arr1.size()+arr2.size(), 0);
     sort(arr1.begin(), arr1.end(),
         arr2.begin(), arr2.end(),
         output.begin());
-    printer(arr1.begin(),arr1.end());
-    printer(arr2.begin(),arr2.end());
     printer(output.begin(),output.end());
 }
