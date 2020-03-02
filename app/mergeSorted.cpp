@@ -54,7 +54,7 @@ int main(){
     vector<int> arr1 = {1,3,6,8,9};
     // vector<int> arr1 = {};
     vector<int> arr2 = {1,2,4,5};
-    vector<int> output(arr1.size()+arr2.size(), 0);
+    vector<int> output(arr1.size()+arr2.size());
     sort(arr1.begin(), arr1.end(),
         arr2.begin(), arr2.end(),
         output.begin());
